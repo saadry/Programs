@@ -1,0 +1,984 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LangueDLL
+</name>
+</assembly>
+<members>
+<member name="T:LangueDLL.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LangueDLL.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LangueDLL.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:LangueDLL.My.Resources.Resources.chat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LangueDLL.Category.MyID">
+    <Summary>
+     (Set|Get) The ID as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 23h24:712 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Category.MyName">
+    <Summary>
+     (Set|Get) The Name as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 22h59:705 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Category.MyFolder">
+    <Summary>
+     (Set|Get) The Folder with the name as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 23h00:930 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Category.Terms">
+    <Summary>
+     (Set|Get) The Terms as List(Of Term).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/05/03 02h30:046 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Category.TermCount">
+    <Summary>
+     (Get) The TermCount as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/05/03 02h30:530 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Category.SerializeFile">
+    <Summary>
+     (Set|Get) The SerializeFile as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/05/03 02h06:584 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="M:LangueDLL.Category.Serialize(System.IO.FileInfo,System.Boolean)">
+ <summary>
+ Will save the Term into a FilePath.
+ </summary>
+ <param name="FilePath">must contain the extension .Term</param>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Category.Deserialize(System.IO.FileInfo)">
+ <summary>
+ Will Load the Langue from a FilePath.
+ </summary>
+ <param name="FilePath"></param>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Category.Clone">
+ <summary>
+ Will Clone the Langue
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Category.Read(LangueDLL.Category@)">
+ <summary>
+ Will Read and copy the properties of Category
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Category.#ctor(System.Int32,System.IO.DirectoryInfo)">
+ <summary>
+ For listing
+ </summary>
+ <param name="Id"></param>
+ <param name="Dir">The </param>
+</member>
+<member name="P:LangueDLL.Langue.Id">
+    <Summary>
+     (Set|Get) The Id as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h38:586 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Name">
+    <Summary>
+     (Set|Get) The Name as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h38:510 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.SerializeFile">
+    <Summary>
+     (Set|Get) The SerializeFile as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 15h49:832 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Arabic">
+    <Summary>
+     (Set|Get) The Arabic as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h41:533 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Chinese">
+    <Summary>
+     (Set|Get) The Chinese as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h41:649 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.English">
+    <Summary>
+     (Set|Get) The English as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h42:486 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Français">
+    <Summary>
+     (Set|Get) The Français as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h42:356 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.German">
+    <Summary>
+     (Set|Get) The German as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h42:394 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Greek">
+    <Summary>
+     (Set|Get) The Greek as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h42:614 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Hebrew">
+    <Summary>
+     (Set|Get) The Hebrew as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h43:374 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Italian">
+    <Summary>
+     (Set|Get) The Italian as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h43:934 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Japanese">
+    <Summary>
+     (Set|Get) The Japanese as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h43:816 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Latin">
+    <Summary>
+     (Set|Get) The Latin as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h44:554 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Portuguese">
+    <Summary>
+     (Set|Get) The Portuguese as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h44:094 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Russian">
+    <Summary>
+     (Set|Get) The Russian as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h44:181 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Spanish">
+    <Summary>
+     (Set|Get) The Spanish as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h45:609 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Thai">
+    <Summary>
+     (Set|Get) The Thai as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h45:583 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Turkish">
+    <Summary>
+     (Set|Get) The Turkish as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 13h45:170 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.List">
+    <Summary>
+     (Set|Get) The List as List(Of Langue).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/05/03 00h27:334 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.SelectIndex">
+    <Summary>
+     (Set|Get) The SelectIndex as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 18h25:692 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Langue.Current">
+    <Summary>
+     (Get) The Current as Langue.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 18h29:369 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="M:LangueDLL.Langue.Serialize(System.IO.FileInfo)">
+ <summary>
+ Will save the Langue into a FilePath.
+ </summary>
+ <param name="FilePath">must contain the extension .Langue</param>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Langue.Deserialize(System.IO.FileInfo)">
+ <summary>
+ Will Load the Langue from a FilePath.
+ </summary>
+ <param name="FilePath"></param>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Langue.Clone">
+ <summary>
+ Will Clone the Langue
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Langue.Read(LangueDLL.Langue@)">
+ <summary>
+ Will Read and copy the properties of lang
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Langue.#ctor">
+ <summary>
+ Clear the class properties
+ </summary>
+</member>
+<member name="M:LangueDLL.Langue.#ctor(System.IO.FileInfo)">
+ <summary>
+ Reading a file 
+ </summary>
+ <param name="SerializedFile"></param>
+</member>
+<member name="P:LangueDLL.Term.Id">
+    <Summary>
+     (Set|Get) The Id as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h20:117 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Name">
+    <Summary>
+     (Set|Get) The Name as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h19:998 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Category">
+    <Summary>
+     (Set|Get) The Category as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h21:046 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.SerializeFile">
+    <Summary>
+     (Set|Get) The SerializeFile as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 15h49:832 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Arabic">
+    <Summary>
+     (Set|Get) The Arabic as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h28:809 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Chinese">
+    <Summary>
+     (Set|Get) The Chinese as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.English">
+    <Summary>
+     (Set|Get) The English as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h29:181 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.French">
+    <Summary>
+     (Set|Get) The French as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h29:463 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.German">
+    <Summary>
+     (Set|Get) The German as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h29:470 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Greek">
+    <Summary>
+     (Set|Get) The Greek as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h30:852 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Hebrew">
+    <Summary>
+     (Set|Get) The Hebrew as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h30:488 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Italian">
+    <Summary>
+     (Set|Get) The Italian as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h30:987 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Japanese">
+    <Summary>
+     (Set|Get) The Japanese as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h31:436 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Latin">
+    <Summary>
+     (Set|Get) The Latin  as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h31:975 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Portuguese">
+    <Summary>
+     (Set|Get) The Portuguese as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h31:532 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Russian">
+    <Summary>
+     (Set|Get) The Russian as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h32:294 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Spanish">
+    <Summary>
+     (Set|Get) The Spanish as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h32:371 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Thai">
+    <Summary>
+     (Set|Get) The Thai as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h32:487 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Turkish">
+    <Summary>
+     (Set|Get) The Turkish as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/25 17h33:563 </Published>
+    <Updated>[Created=][Status=Tested][Tested On]2020/04/28 00h45:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.List">
+    <Summary>
+     (Set|Get) The List as List(Of Term).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/05/03 01h22:683 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Term.Categories">
+    <Summary>
+     (Set|Get) The Categories as List(Of String).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/05/03 01h36:672 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="M:LangueDLL.Term.Translate(LangueDLL.M_Info.Langues)">
+ <summary>
+ Translate the term in the selected langues
+ </summary>
+ <param name="Lg"></param>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Term.Serialize(System.IO.FileInfo,System.Boolean)">
+ <summary>
+ Will save the Term into a FilePath.
+ </summary>
+ <param name="FilePath">must contain the extension .Term</param>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Term.Deserialize(System.IO.FileInfo)">
+ <summary>
+ Will Load the Langue from a FilePath.
+ </summary>
+ <param name="FilePath"></param>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Term.Clone">
+ <summary>
+ Will Clone the Langue
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Term.Read(LangueDLL.Term@)">
+ <summary>
+ Will Read and copy the properties of lang
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.Term.#ctor">
+ <summary>
+ Clear the class
+ </summary>
+</member>
+<member name="M:LangueDLL.Term.#ctor(System.IO.FileInfo)">
+ <summary>
+ Load a file
+ </summary>
+</member>
+<member name="M:LangueDLL.Term.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Create a new class
+ </summary>
+</member>
+<member name="P:LangueDLL.M_Info.Current">
+    <Summary>
+     (Set|Get) The Current as Langues.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/05/03 00h57:014 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="T:LangueDLL.M_Info.Langues">
+ <summary>
+ Define the langue
+ </summary>
+</member>
+<member name="M:LangueDLL.M_Info.Concatenate(LangueDLL.M_Info.Langues,System.Collections.Generic.List{LangueDLL.M_Info.Sentences}@)">
+ <summary>
+ Concatenate list of terms to string
+ </summary>
+ <param name="langue"></param>
+ <param name="Content"></param>
+ <returns></returns>
+</member>
+<member name="M:LangueDLL.M_Info.Concatenate(LangueDLL.M_Info.Langues,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences,LangueDLL.M_Info.Sentences)">
+ <summary>
+ Concatenate up to 20 contents 
+ </summary>
+ <param name="Langue"></param>
+ <param name="Term"></param>
+ <param name="Term1"></param>
+ <param name="Term2"></param>
+ <param name="Term3"></param>
+ <param name="Term4"></param>
+ <param name="Term5"></param>
+ <param name="Term6"></param>
+ <param name="Term7"></param>
+ <param name="Term8"></param>
+ <param name="Term9"></param>
+ <param name="Term10"></param>
+ <param name="Term11"></param>
+ <param name="Term12"></param>
+ <param name="Term13"></param>
+ <param name="Term14"></param>
+ <param name="Term15"></param>
+ <param name="Term16"></param>
+ <param name="Term17"></param>
+ <param name="Term18"></param>
+ <param name="Term19"></param>
+ <param name="Term20"></param>
+ <returns></returns>
+</member>
+<member name="P:LangueDLL.Change_Langue.Current">
+    <Summary>
+     (Set|Get) The Current as Langues.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/05/02 22h25:336 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.Current">
+    <Summary>
+     (Set|Get) The Current as Object.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/14 01h27:300 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.DataSource">
+    <Summary>
+     (Set|Get) The DataSource as IEnumerable(Of Object).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/14 01h27:589 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.Bm">
+    <Summary>
+     (Set|Get) The Bm as BindingManagerBase.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 13h31:925 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.Table">
+    <Summary>
+     (Set|Get) The Table as DataTable.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 14h15:443 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.Test_Current">
+    <Summary>
+     (Get)  The Test_Current as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/14 01h28:727 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.Test_DataSource">
+    <Summary>
+     (Get)  The Test_DataSource as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/14 01h30:384 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.Total">
+    <Summary>
+     (Get)  The Total as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/14 01h31:040 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.SelectedIndex">
+    <Summary>
+     (Set|Get) The SelectedIndex as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/14 01h33:495 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.SearchExpression">
+    <Summary>
+     (Set|Get) The SearchExpression as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/14 01h40:821 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.Results">
+    <Summary>
+     (Set|Get) The Results as List(Of Object) from the search.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/14 01h42:583 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.Langue">
+    <Summary>
+     (Set|Get) The Langue as Langues.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 13h44:319 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.NewModeActivated">
+    <Summary>
+     (Set|Get) The NewModeActivated as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/21 00h39:249 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:LangueDLL.Navibar.ActivePopUpProperty">
+    <Summary>
+     (Set|Get) The ActivePopUpProperty as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/21 22h48:742 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="M:LangueDLL.Navibar.Refresh_Langue">
+ <summary>
+ Change the environment language labels
+ </summary>
+</member>
+<member name="M:LangueDLL.Navibar.BmPositionChanged(System.Object,System.EventArgs)">
+ <summary>
+ Updates out VCR control when the user
+ moves position in the data collection
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="E:LangueDLL.Navibar.InfoClick">
+ <summary>
+ Occurs when the 'Info' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.FirstClick">
+ <summary>
+ Occurs when the 'First' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.LastClick">
+ <summary>
+ Occurs when the 'Last' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.NextClick">
+ <summary>
+ Occurs when the 'Next' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.PreviousClick">
+ <summary>
+ Occurs when the 'Previous' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.RefreshClick">
+ <summary>
+ Occurs when the 'Refresh' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.NewClick">
+ <summary>
+ Occurs when the 'New' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.DeleteClick">
+ <summary>
+ Occurs when the 'Delete' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.SaveClick">
+ <summary>
+ Occurs when the 'Save' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.SelectedIndexChanged">
+ <summary>
+ Occurs when the 'Save' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.SearchActivate">
+ <summary>
+ Occurs when the 'Search' button has been clicked
+ </summary>
+</member>
+<member name="E:LangueDLL.Navibar.LangueChanged">
+ <summary>
+ Occurs when the 'Langue' has been changed.
+ </summary>
+</member>
+</members>
+</doc>

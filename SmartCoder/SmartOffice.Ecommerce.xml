@@ -1,0 +1,488 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SmartOffice.Ecommerce
+</name>
+</assembly>
+<members>
+<member name="T:SmartOffice.Ecommerce.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartOffice.Ecommerce.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartOffice.Ecommerce.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SmartOffice.Ecommerce.Product">
+   <Summary> 
+   This class represent a product we are selling.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:22:23:960 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="T:SmartOffice.Ecommerce.Product.Categorytype">
+   <Summary>
+   The Enumeration Enum1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 10:26:45:000 | Printed at : 2021.08.12 11:02:46:884
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Categorytype.Assistance">
+   <Summary>
+   Help or assistance for reparations or configuration
+   Printed at : 2021.08.12 11:02:46:884
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Categorytype.Hardware">
+   <Summary>
+   Any product relating to hardware products.
+   Printed at : 2021.08.12 11:02:46:884
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Categorytype.Infrastructure">
+   <Summary>
+   Infrastructure
+   Printed at : 2021.08.12 11:02:46:884
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Categorytype.Installation">
+   <Summary>
+   The member Installation Position at : 3
+   Printed at : 2021.08.12 11:02:46:884
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Categorytype.Maintenance">
+   <Summary>
+   The member Maintenance Position at : 4
+   Printed at : 2021.08.12 11:02:46:884
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Categorytype.Software">
+   <Summary>
+   The member Software Position at : 5
+   Printed at : 2021.08.12 11:02:46:884
+   </Summary>
+</member>
+<member name="T:SmartOffice.Ecommerce.Product.Gamme">
+   <Summary>
+   The Enumeration Enum1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 10:56:13:000 | Printed at : 2021.08.12 11:02:46:885
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Gamme.Basic">
+   <Summary>
+   The member Basic Position at : 0
+   Printed at : 2021.08.12 11:02:46:885
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Gamme.ECommerce">
+   <Summary>
+   The member ECommerce Position at : 1
+   Printed at : 2021.08.12 11:02:46:885
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Gamme.Premium">
+   <Summary>
+   The member Premium Position at : 2
+   Printed at : 2021.08.12 11:02:46:885
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Gamme.Ultimate">
+   <Summary>
+   The member Ultimate Position at : 3
+   Printed at : 2021.08.12 11:02:46:885
+   </Summary>
+</member>
+<member name="T:SmartOffice.Ecommerce.Product.HardDriveType">
+   <Summary>
+   The Enumeration Enum1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 10:57:12:000 | Printed at : 2021.08.12 11:02:46:885
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.HardDriveType.SAS">
+   <Summary>
+   The member SAS Position at : 0
+   Printed at : 2021.08.12 11:02:46:885
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.HardDriveType.SATA">
+   <Summary>
+   The member SATA Position at : 1
+   Printed at : 2021.08.12 11:02:46:885
+   </Summary>
+</member>
+<member name="T:SmartOffice.Ecommerce.Product.Certificat_SSL">
+   <Summary>
+   The Enumeration Enum1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 10:58:13:000 | Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Certificat_SSL.Enterprise_EV_UCC">
+   <Summary>
+   The member Enterprise_EV_UCC Position at : 0
+   Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Certificat_SSL.Enterprise_EV_SSL">
+   <Summary>
+   The member Enterprise_EV_SSL Position at : 1
+   Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Certificat_SSL.WildCard_SSL">
+   <Summary>
+   The member WildCard_SSL Position at : 2
+   Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Certificat_SSL.UCC_SAN_SSL">
+   <Summary>
+   The member UCC_SAN_SSL Position at : 3
+   Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Certificat_SSL.Premium_SSL">
+   <Summary>
+   The member Premium_SSL Position at : 4
+   Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Certificat_SSL.High_Assurance_SSL">
+   <Summary>
+   The member High_Assurance_SSL Position at : 5
+   Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Certificat_SSL.Basic_SSL">
+   <Summary>
+   The member Basic_SSL Position at : 6
+   Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product.Certificat_SSL.None">
+   <Summary>
+   The member None Position at : 7
+   Printed at : 2021.08.12 11:02:46:886
+   </Summary>
+</member>
+<member name="M:SmartOffice.Ecommerce.Product.Save(System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will clone the Product class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:02:30:305 | Printed at : 2021.08.12 11:02:46:887
+   </Summary>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartOffice.Ecommerce.Product.Serialize(SmartOffice.Ecommerce.Product,System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will save the Product class object in a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:02:32:082 | Printed at : 2021.08.12 11:02:46:887
+   </Summary>
+ <param name="obj">Please enter a valid Product.</param>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartOffice.Ecommerce.Product.Deserialize(System.String)">
+   <Summary>
+   This method will open the Product class object from a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:02:33:253 | Printed at : 2021.08.12 11:02:46:889
+   </Summary>
+ <param name="target">Please enter the full path of a file</param>
+</member>
+<member name="M:SmartOffice.Ecommerce.Product.Clone">
+   <Summary>
+   This method will clone the Product class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:02:34:241 | Printed at : 2021.08.12 11:02:46:889
+   </Summary>
+</member>
+<member name="M:SmartOffice.Ecommerce.Product.#ctor(System.Int32,System.String,System.Double,System.Double,SmartOffice.Ecommerce.Product.Categorytype)">
+   <Summary>
+   An empty loader class
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:00:45:107 | Printed at : 2021.08.12 11:02:46:889
+   </Summary>
+ <param name="id">(Set|Get) The ID as int.</param>
+ <param name="name">(Set|Get) The Name as string.</param>
+ <param name="unitprice">(Set|Get) The UnitPrice as double.</param>
+ <param name="quantity">(Set|Get) The Quantity as double.</param>
+ <param name="type">(Set|Get) The Type as Categorytype.</param>
+</member>
+<member name="F:SmartOffice.Ecommerce.Product._ID">
+   <Summary> 
+   The discret variable _ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:23:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.Product.ID">
+   <Summary> 
+   (Set|Get) The ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:23:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.Product._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:24:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.Product.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:24:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.Product._UnitPrice">
+   <Summary> 
+   The discret variable _UnitPrice as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:25:52:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.Product.UnitPrice">
+   <Summary> 
+   (Set|Get) The UnitPrice as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:25:52:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.Product._Quantity">
+   <Summary> 
+   The discret variable _Quantity as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:26:10:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.Product.Quantity">
+   <Summary> 
+   (Set|Get) The Quantity as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:26:10:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.Product._Type">
+   <Summary> 
+   The discret variable _Type as Categorytype.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:26:26:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.Product.Type">
+   <Summary> 
+   (Set|Get) The Type as Categorytype.
+   Author : MASTER\DSI
+   Created : 2021.08.12 10:26:26:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.Ecommerce.Product.Reset">
+   <Summary>
+   This method will reset the Product class.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:02:26:565 | Printed at : 2021.08.12 11:02:46:891
+   </Summary>
+</member>
+<member name="M:SmartOffice.Ecommerce.Product.Open(System.String)">
+   <Summary>
+   This method will open the Product class object from a file.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:02:31:025 | Printed at : 2021.08.12 11:02:46:891
+   </Summary>
+ <param name="filepath">Please enter the full path of a file</param>
+</member>
+<member name="T:SmartOffice.Ecommerce.WebProduct">
+   <Summary> 
+   
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:04:01:259 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.Ecommerce.WebProduct.Save(System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will clone the WebProduct class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:07:50:124 | Printed at : 2021.08.12 11:09:33:872
+   </Summary>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartOffice.Ecommerce.WebProduct.Serialize(SmartOffice.Ecommerce.WebProduct,System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will save the WebProduct class object in a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:07:52:509 | Printed at : 2021.08.12 11:09:33:872
+   </Summary>
+ <param name="obj">Please enter a valid WebProduct.</param>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartOffice.Ecommerce.WebProduct.Deserialize(System.String)">
+   <Summary>
+   This method will open the WebProduct class object from a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:07:53:468 | Printed at : 2021.08.12 11:09:33:873
+   </Summary>
+ <param name="target">Please enter the full path of a file</param>
+</member>
+<member name="M:SmartOffice.Ecommerce.WebProduct.Clone">
+   <Summary>
+   This method will clone the WebProduct class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:07:54:416 | Printed at : 2021.08.12 11:09:33:873
+   </Summary>
+</member>
+<member name="M:SmartOffice.Ecommerce.WebProduct.#ctor(System.Int32,System.String,System.Double,System.Double,System.Double,System.Double,System.String)">
+   <Summary>
+   An empty loader class
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:09:26:416 | Printed at : 2021.08.12 11:09:33:873
+   </Summary>
+ <param name="id">(Set|Get) The ID as int.</param>
+ <param name="name">(Set|Get) The Name as string.</param>
+ <param name="basic">(Set|Get) The Basic as double.</param>
+ <param name="advanced">(Set|Get) The Advanced as double.</param>
+ <param name="premium">(Set|Get) The Premium as double.</param>
+ <param name="ultimate">(Set|Get) The Ultimate as double.</param>
+ <param name="description">(Set|Get) The Description as string.</param>
+</member>
+<member name="F:SmartOffice.Ecommerce.WebProduct._ID">
+   <Summary> 
+   The discret variable _ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:04:23:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.WebProduct.ID">
+   <Summary> 
+   (Set|Get) The ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:04:23:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.WebProduct._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:04:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.WebProduct.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:04:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.WebProduct._Description">
+   <Summary> 
+   The discret variable _Description as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:06:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.WebProduct.Description">
+   <Summary> 
+   (Set|Get) The Description as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:06:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.WebProduct._Basic">
+   <Summary> 
+   The discret variable _Basic as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:04:44:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.WebProduct.Basic">
+   <Summary> 
+   (Set|Get) The Basic as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:04:44:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.WebProduct._Advanced">
+   <Summary> 
+   The discret variable _Advanced as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:05:26:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.WebProduct.Advanced">
+   <Summary> 
+   (Set|Get) The Advanced as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:05:26:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.WebProduct._Premium">
+   <Summary> 
+   The discret variable _Premium as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:05:42:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.WebProduct.Premium">
+   <Summary> 
+   (Set|Get) The Premium as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:05:42:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.Ecommerce.WebProduct._Ultimate">
+   <Summary> 
+   The discret variable _Ultimate as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:05:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.Ecommerce.WebProduct.Ultimate">
+   <Summary> 
+   (Set|Get) The Ultimate as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.12 11:05:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.Ecommerce.WebProduct.Reset">
+   <Summary>
+   This method will reset the WebProduct class.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:07:49:113 | Printed at : 2021.08.12 11:09:33:874
+   </Summary>
+</member>
+<member name="M:SmartOffice.Ecommerce.WebProduct.Open(System.String)">
+   <Summary>
+   This method will open the WebProduct class object from a file.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 11:07:50:936 | Printed at : 2021.08.12 11:09:33:874
+   </Summary>
+ <param name="filepath">Please enter the full path of a file</param>
+</member>
+</members>
+</doc>

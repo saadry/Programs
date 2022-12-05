@@ -1,0 +1,3408 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SmartOffice.SmartFiles
+</name>
+</assembly>
+<members>
+<member name="T:SmartOffice.SmartFiles.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.My.Resources.Resources.check_mark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.My.Resources.Resources.database">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase">
+   <Summary> 
+   
+   Author : MASTER\DSI
+   Created : 2021.08.12 16:38:40:114 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase.Table">
+   <Summary> 
+   
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:54:35:238 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Table.ToString">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:07:01:000 | Printed at : 2021.08.13 01:30:17:395
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Table.#ctor(System.String,SmartOffice.SmartFiles.DataBase)">
+   <Summary>
+   An empty loader class
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 01:00:16:147 | Printed at : 2021.08.13 01:30:17:395
+   </Summary>
+ <param name="tablename">(Set|Get) The TableName as string.</param>
+ <param name="source">(Set|Get) The Source as DataBase.</param>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Table._TableName">
+   <Summary> 
+   The discret variable _TableName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:56:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Table.TableName">
+   <Summary> 
+   (Set|Get) The TableName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:56:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Table._Data">
+   <Summary> 
+   The discret variable _Data as DataTable.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:56:29:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Table.Data">
+   <Summary> 
+   (Set|Get) The Data as DataTable.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:56:29:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Table._Source">
+   <Summary> 
+   The discret variable _Source as DataBase.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:58:15:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Table.Source">
+   <Summary> 
+   (Set|Get) The Source as DataBase.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:58:15:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Table.ConnectionLine">
+   <Summary> 
+   (Get) The ConnectionLine as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:58:30:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Table._Columns">
+   <Summary> 
+   The discret variable _Columns as List(Of ColumnHeader).
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:00:30:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Table.Columns">
+   <Summary> 
+   (Set|Get) The Columns as List(Of ColumnHeader).
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:00:30:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Table.ColumnsCount">
+   <Summary> 
+   (Get) The ColumnsCount as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:00:59:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Table.RowsCount">
+   <Summary> 
+   (Get) The RowsCount as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:02:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Table._Items">
+   <Summary> 
+   The discret variable _Items as List(Of VirtualItem).
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:03:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Table.Items">
+   <Summary> 
+   (Set|Get) The Items as List(Of VirtualItem).
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:03:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Table.Import(System.Boolean)">
+   <Summary>
+   The method Sub1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:04:47:000 | Printed at : 2021.08.13 01:30:17:399
+   </Summary>
+ <param name="withformatting">The withformatting as Boolean.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Table.Format">
+   <Summary>
+   The method Sub1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:06:12:000 | Printed at : 2021.08.13 01:30:17:399
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase.Provider">
+   <Summary> 
+   This class enables to set the connection with a database
+   Author : MASTER\DSI
+   Created : 2021.08.12 19:56:23:116 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.Dir">
+   <Summary>
+   The variable  as 
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:48:12:000 | Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase.Provider.ProviderAgent">
+   <Summary>
+   The Enumeration Enum1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 20:08:17:000 | Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.ProviderAgent.OLEDB4">
+   <Summary>
+   The member OLEDB4 Position at : 0
+   Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.ProviderAgent.OLEDB12">
+   <Summary>
+   The member OLEDB12 Position at : 1
+   Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.ProviderAgent.SQL">
+   <Summary>
+   The member SQL Position at : 2
+   Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase.Provider.FMTType">
+   <Summary>
+   The Enumeration Enum1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 20:09:00:000 | Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.FMTType.None">
+   <Summary>
+   The member None Position at : 0
+   Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.FMTType.Fixed">
+   <Summary>
+   The member Fixed Position at : 1
+   Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.FMTType.Delimited">
+   <Summary>
+   The member Delimited Position at : 2
+   Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.Save(System.String)">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:32:23:000 | Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+ <param name="filepath">The filepath as String.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.Read(System.IO.FileInfo)">
+   <Summary>
+   This will allow to read a filePath provided it has the correct extension. In doubt use constant class for extension call [Extension]
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:34:19:000 | Printed at : 2021.08.13 01:30:17:402
+   </Summary>
+ <param name="filepath">The filepath as IO.FileInfo.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.Open(System.IO.FileInfo)">
+   <Summary>
+   This will allow to open a provider from a string path
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:38:00:000 | Printed at : 2021.08.13 01:30:17:403
+   </Summary>
+ <param name="filepath">The filepath as IO.FileInfo.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.List">
+   <Summary>
+   This function enables a quick search and returns a list of string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:39:47:000 | Printed at : 2021.08.13 01:30:17:403
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.GetProviders">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:41:22:000 | Printed at : 2021.08.13 01:30:17:403
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.ToString">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:42:28:000 | Printed at : 2021.08.13 01:30:17:403
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.FindProvider(System.IO.FileInfo)">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:43:26:000 | Printed at : 2021.08.13 01:30:17:403
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.List{System.String}@,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Create a New DataBase Type 
+ </summary>
+ <param name="Name">Enter the quick name. Example: Accdb</param>
+ <param name="ProviderString">Enter the Provider String for connection. Example : Microsoft.ACE.OLEDB.12.0</param>
+ <param name="Extension0">First parameter is for Extended Properties. For example: DBaseIII.</param>
+ <param name="Extension1">Second parameter. For example: Excel 12.0 Xml</param>
+ <param name="Extension2">Third parameter. For example: HDR = YES</param>
+ <param name="ExtensionAssociated">New list(Of String) With{".accdb"}</param>
+ <param name="ProgramFileLocation">Define the program or dll file associated to read the database</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.#ctor(System.IO.FileInfo)">
+ <summary>
+ Enable to read Provider from file
+ </summary>
+ <param name="File"></param>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:52:53:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:52:53:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._UseSQL">
+   <Summary> 
+   The discret variable _UseSQL as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:53:22:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.UseSQL">
+   <Summary> 
+   (Set|Get) The UseSQL as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:53:22:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._Enable">
+   <Summary> 
+   The discret variable _Enable as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:53:52:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.Enable">
+   <Summary> 
+   (Set|Get) The Enable as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:53:52:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._Extensions">
+   <Summary> 
+   The discret variable _Extensions as List(Of String).
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:54:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.Extensions">
+   <Summary> 
+   (Set|Get) The Extensions as List(Of String).
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:54:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._Password">
+   <Summary> 
+   The discret variable _Password as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:54:53:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.Password">
+   <Summary> 
+   (Set|Get) The Password as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:54:53:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._ID">
+   <Summary> 
+   The discret variable _ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:55:06:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.ID">
+   <Summary> 
+   (Set|Get) The ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:55:06:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._SerializeFile">
+   <Summary> 
+   The discret variable _SerializeFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:55:21:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.SerializeFile">
+   <Summary> 
+   (Set|Get) The SerializeFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:55:21:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._ProviderString">
+   <Summary> 
+   The discret variable _ProviderString as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:55:45:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.ProviderString">
+   <Summary> 
+   (Set|Get) The ProviderString as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:55:45:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._ExtendedProperty_0">
+   <Summary> 
+   The discret variable _ExtendedProperty_0 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:56:12:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.ExtendedProperty_0">
+   <Summary> 
+   (Set|Get) The ExtendedProperty_0 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:56:12:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._ExtendedProperty_1">
+   <Summary> 
+   The discret variable _ExtendedProperty_1 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:56:24:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.ExtendedProperty_1">
+   <Summary> 
+   (Set|Get) The ExtendedProperty_1 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:56:24:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._ExtendedProperty_2">
+   <Summary> 
+   The discret variable _ExtendedProperty_2 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:56:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.ExtendedProperty_2">
+   <Summary> 
+   (Set|Get) The ExtendedProperty_2 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:56:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._SQL_AttachDbFileName">
+   <Summary> 
+   The discret variable _SQL_AttachDbFileName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:57:16:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.SQL_AttachDbFileName">
+   <Summary> 
+   (Set|Get) The SQL_AttachDbFileName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:57:16:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._SQL_DataSource">
+   <Summary> 
+   The discret variable _SQL_DataSource as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:58:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.SQL_DataSource">
+   <Summary> 
+   (Set|Get) The SQL_DataSource as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:58:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._ProgramFile">
+   <Summary> 
+   The discret variable _ProgramFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:59:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.ProgramFile">
+   <Summary> 
+   (Set|Get) The ProgramFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:59:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.ProgramFileExist">
+   <Summary> 
+   (Get) The ProgramFileExist as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 22:59:22:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider._DownloadURL">
+   <Summary> 
+   The discret variable _DownloadURL as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:04:48:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Provider.DownloadURL">
+   <Summary> 
+   (Set|Get) The DownloadURL as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 23:04:48:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.CreateDir">
+   <Summary>
+   The method Sub1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:06:56:000 | Printed at : 2021.08.13 01:30:17:406
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.Download">
+   <Summary>
+   Will download and run the file once it has downloaded.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:09:45:000 | Printed at : 2021.08.13 01:30:17:406
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Provider.CreateDefaultProviders">
+   <Summary>
+   This needs to be initialise at the very first.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:25:28:000 | Printed at : 2021.08.13 01:30:17:406
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.Accdb">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:44:14:000 | Printed at : 2021.08.13 01:30:17:407
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.Dbf">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:44:35:000 | Printed at : 2021.08.13 01:30:17:407
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.Excel">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:46:06:000 | Printed at : 2021.08.13 01:30:17:407
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.Mdb">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:46:40:000 | Printed at : 2021.08.13 01:30:17:407
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.Sql">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:47:02:000 | Printed at : 2021.08.13 01:30:17:407
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Provider.Saadry">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 23:47:25:000 | Printed at : 2021.08.13 01:30:17:407
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase.VirtualItem">
+   <Summary> 
+   This class is like a ListViewItem but it has no visual components.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:00:57:063 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.VirtualItem.Dir">
+   <Summary>
+   The variable  as 
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 01:05:23:000 | Printed at : 2021.08.13 01:30:17:425
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.VirtualItem.ToString">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 01:04:35:000 | Printed at : 2021.08.13 01:30:17:426
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.VirtualItem.#ctor(System.Int32,System.String,SmartOffice.SmartFiles.DataBase.Access_DataType,System.Object)">
+ <summary>
+ 
+ </summary>
+ <param name="Position">the row index</param>
+ <param name="Name">the Column Caption</param>
+ <param name="Type">The type</param>
+ <param name="Value">The exact value of the object(String, Int, Byte or ...)</param>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.VirtualItem._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:02:10:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.VirtualItem.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:02:10:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.VirtualItem._Text">
+   <Summary> 
+   The discret variable _Text as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:02:29:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.VirtualItem.Text">
+   <Summary> 
+   (Set|Get) The Text as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:02:29:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.VirtualItem._Position">
+   <Summary> 
+   The discret variable _Position as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:02:45:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.VirtualItem.Position">
+   <Summary> 
+   (Set|Get) The Position as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:02:45:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.VirtualItem._SubItems">
+   <Summary> 
+   The discret variable _SubItems as List(Of VirtualItem).
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:02:54:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.VirtualItem.SubItems">
+   <Summary> 
+   (Set|Get) The SubItems as List(Of VirtualItem).
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:02:54:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.VirtualItem._Value">
+   <Summary> 
+   The discret variable _Value as Object.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:03:24:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.VirtualItem.Value">
+   <Summary> 
+   (Set|Get) The Value as Object.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:03:24:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.VirtualItem._DataType">
+   <Summary> 
+   The discret variable _DataType as Access_DataType.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:03:42:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.VirtualItem.DataType">
+   <Summary> 
+   (Set|Get) The DataType as Access_DataType.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:03:42:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.VirtualItem._SerializedFile">
+   <Summary> 
+   The discret variable _SerializedFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:04:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.VirtualItem.SerializedFile">
+   <Summary> 
+   (Set|Get) The SerializedFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 01:04:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase.Status">
+   <Summary>
+   (Set|Get) Enumeration which capture the Status of an object or procedure.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:15:31:000 | Printed at : 2021.08.13 01:30:17:433
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.Nothing">
+   <Summary>
+   The object is nothing or has not been initialized.
+   Printed at : 2021.08.13 01:30:17:433
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.Online">
+   <Summary>
+   The object is in use or the procedure is working.
+   Printed at : 2021.08.13 01:30:17:433
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.Offline">
+   <Summary>
+   The object is unreachable or offline.
+   Printed at : 2021.08.13 01:30:17:433
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.Broken">
+   <Summary>
+   The object of procedure has entered a critical state due to some error.
+   Printed at : 2021.08.13 01:30:17:433
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.StandBye">
+   <Summary>
+   The Object has been initialized and the input parameters have been verified but the process has not yet been performed.
+   Printed at : 2021.08.13 01:30:17:433
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.Warning">
+   <Summary>
+   The Object has encountered some errors during the process but has successfully solve them.
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.Running">
+   <Summary>
+   The Object or process is engage. The process is running.
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.NotTested">
+   <Summary>
+   The object or process has received the command but did not complete or initialize the process.
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.IsNothing">
+   <Summary>
+   The object or process has capture a null object or the process or object has failed to complete the task.
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Status.Finished">
+   <Summary>
+   The object or process has finished the evaluation sucessfully.
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase.Access_DataType">
+   <Summary>
+   The Microsoft Access DataType for Columns
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:19:28:000 | Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.ShortText">
+   <Summary>
+   The member ShortText Position at : 0
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.LongText">
+   <Summary>
+   The member LongText Position at : 1
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.Number">
+   <Summary>
+   The member Number Position at : 2
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.LargeNumber">
+   <Summary>
+   The member LargeNumber Position at : 3
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.DateTime">
+   <Summary>
+   The member DateTime Position at : 4
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.AutoNumber">
+   <Summary>
+   The member AutoNumber Position at : 5
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.Yes_No">
+   <Summary>
+   The member Yes_No Position at : 6
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.OLEObject">
+   <Summary>
+   The member OLEObject Position at : 7
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.Hyperlink">
+   <Summary>
+   The member Hyperlink Position at : 8
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.Attachement">
+   <Summary>
+   The member Attachement Position at : 9
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.Calculated">
+   <Summary>
+   The member Calculated Position at : 10
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Access_DataType.LookupWizard">
+   <Summary>
+   The member LookupWizard Position at : 11
+   Printed at : 2021.08.13 01:30:17:434
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.DataBase.AuthentificationType">
+   <Summary>
+   The Authentification method in used to connect to the SQL Server Database.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 11:02:45:000 | Printed at : 2021.08.19 11:26:34:599
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.AuthentificationType.Windows">
+   <Summary>
+   The SQL Server will be accessed using your windows loggin. No need to provide username or password.
+   Printed at : 2021.08.19 11:26:34:599
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.AuthentificationType.SQL_Server">
+   <Summary>
+   You must provide a username and a password to log in.
+   Printed at : 2021.08.19 11:26:34:599
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.AuthentificationType.ActiveDirectory">
+   <Summary>
+   Authentification is done by providing a valid username and password managed by the Active Directory Managment Console.
+   Printed at : 2021.08.19 11:26:34:599
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.AuthentificationType.IntegratedActiveDirectory">
+   <Summary>
+   With this method you do not need to provide a username or password, as long as your pc is in the domain it will be accepted as a valid authentification ajent.
+   Printed at : 2021.08.19 11:26:34:599
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Open(System.String)">
+   <Summary>
+   Open the dataBase.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:32:27:000 | Printed at : 2021.08.13 01:30:17:436
+   </Summary>
+ <param name="sqlcommand">The sqlcommand as String.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Close">
+   <Summary>
+   Close the DataBase
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:33:26:000 | Printed at : 2021.08.13 01:30:17:436
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.ChangePassword(System.String,System.String)">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : NotWorking
+   Designed : 2021.08.13 00:34:43:000 | Printed at : 2021.08.13 01:30:17:437
+   </Summary>
+ <param name="newpassword">The newpassword as String.</param>
+ <param name="oldpassword">The oldpassword as String.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.FindTable(System.String)">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:36:09:000 | Printed at : 2021.08.13 01:30:17:437
+   </Summary>
+ <param name="tablename">The tablename as String.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.CreateTable(System.String)">
+   <Summary>
+   Create a table if name is not already in use.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:37:42:000 | Printed at : 2021.08.13 01:30:17:437
+   </Summary>
+ <param name="tablename">The tablename as String.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.DeleteTable(System.String)">
+   <Summary>
+   Delete the selected table
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:38:59:000 | Printed at : 2021.08.13 01:30:17:438
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.DetectType_WithColumn(System.Data.DataColumn)">
+   <Summary>
+   Detect the SystemType from a DataColumn.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 01:20:43:000 | Printed at : 2021.08.13 01:30:17:438
+   </Summary>
+ <param name="col">The col as DataColumn.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.DetectOledbParameter_WithColumn(System.Data.DataColumn)">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 01:25:15:000 | Printed at : 2021.08.13 01:30:17:439
+   </Summary>
+ <param name="col">The col as DataColumn.</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.DetectSqlParameter_WithColumn(System.Data.DataColumn)">
+   <Summary>
+   Detect the SqlClient.SqlParameter.Type from a Col DataColumn.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 01:27:22:000 | Printed at : 2021.08.13 01:30:17:439
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Detect_AccessType(System.Object)">
+   <Summary>
+   Detect the Access DataBaseType from an object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 01:28:38:000 | Printed at : 2021.08.13 01:30:17:439
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.FindSQLServer">
+   <Summary>
+   This method helps to collect all SQL Server within the given network.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 11:15:21:000 | Printed at : 2021.08.19 11:26:34:946
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.#ctor">
+ <summary>
+ Create a new empty schema of a Database
+ </summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.#ctor(System.String,System.String)">
+ <summary>
+ Create a new local connection database
+ </summary>
+ <param name="LocalFile"></param>
+ <param name="Password"></param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.#ctor(System.String,System.String,SmartOffice.SmartFiles.DataBase.AuthentificationType,System.String,System.String)">
+ <summary>
+ Create a new instance of SQL Server Connection
+ </summary>
+ <param name="ServerName"></param>
+ <param name="DataBaseName"></param>
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.#ctor(System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Initialise a connection with a Web Sql Server
+ </summary>
+ <param name="Provider"></param>
+ <param name="Ip"></param>
+ <param name="Port"></param>
+ <param name="UserID"></param>
+ <param name="Password"></param>
+ <param name="InitalCatalog"></param>
+ <param name="NetworkLibary"></param>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._Adaptor">
+   <Summary> 
+   The discret variable _Adaptor as Provider.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:12:42:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Adaptor">
+   <Summary> 
+   (Set|Get) The Adaptor as Provider.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:12:42:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._ConnectionStatus">
+   <Summary> 
+   The discret variable _ConnectionStatus as Status.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:23:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.ConnectionStatus">
+   <Summary> 
+   (Set|Get) The ConnectionStatus as Status.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:23:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._ConnectionLine">
+   <Summary> 
+   The discret variable _ConnectionLine as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:25:20:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.ConnectionLine">
+   <Summary> 
+   (Set|Get) The ConnectionLine as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:25:20:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._Target">
+   <Summary> 
+   The discret variable _Target as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:26:25:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Target(System.String)">
+   <Summary> 
+   (Set|Get) The Target as String.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:26:25:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._DataSet">
+   <Summary> 
+   The discret variable _DataSet as DataSet.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:27:25:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.DataSet">
+   <Summary> 
+   (Set|Get) The DataSet as DataSet.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:27:25:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._DataTable">
+   <Summary> 
+   The discret variable _DataTable as DataTable.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:27:47:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.DataTable">
+   <Summary> 
+   (Set|Get) The DataTable as DataTable.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:27:47:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._Tables">
+   <Summary> 
+   The discret variable _Tables as List(Of Table).
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:28:07:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Tables">
+   <Summary> 
+   (Set|Get) The Tables as List(Of Table).
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:28:07:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._UseSQL">
+   <Summary> 
+   The discret variable _UseSQL as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 13:13:58:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.UseSQL">
+   <Summary> 
+   (Set|Get) The UseSQL as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 13:13:58:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._ConnectionHasBeenTest">
+   <Summary> 
+   The discret variable _ConnectionHasBeenTest as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:28:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.ConnectionHasBeenTest">
+   <Summary> 
+   (Set|Get) The ConnectionHasBeenTest as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:28:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._ConnectionIsOperational">
+   <Summary> 
+   The discret variable _ConnectionIsOperational as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:29:00:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.ConnectionIsOperational">
+   <Summary> 
+   (Set|Get) The ConnectionIsOperational as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:29:00:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._ConnectionIsInUse">
+   <Summary> 
+   The discret variable _ConnectionIsInUse as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:29:21:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.ConnectionIsInUse">
+   <Summary> 
+   (Set|Get) The ConnectionIsInUse as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.13 00:29:21:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._ServerName">
+   <Summary> 
+   The discret variable _ServerName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:13:20:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.ServerName">
+   <Summary> 
+   (Set|Get) The ServerName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:13:20:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._Authentification">
+   <Summary> 
+   The discret variable _Authentification as AuthentificationType.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:15:07:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Authentification">
+   <Summary> 
+   (Set|Get) The Authentification as AuthentificationType.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:15:07:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._IPAddress">
+   <Summary> 
+   The discret variable _IPAddress as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:16:09:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.IPAddress">
+   <Summary> 
+   (Set|Get) The IPAddress as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:16:09:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._IsLocalSQL">
+   <Summary> 
+   The discret variable _IsLocalSQL as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:17:19:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.IsLocalSQL">
+   <Summary> 
+   (Set|Get) The IsLocalSQL as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:17:19:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._SQL_UserName">
+   <Summary> 
+   The discret variable _SQL_UserName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:20:52:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.SQL_UserName">
+   <Summary> 
+   (Set|Get) The SQL_UserName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:20:52:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._SQL_Password">
+   <Summary> 
+   The discret variable _SQL_Password as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:21:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.SQL_Password">
+   <Summary> 
+   (Set|Get) The SQL_Password as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:21:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._InitialCatalog">
+   <Summary> 
+   The discret variable _InitialCatalog as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:22:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.InitialCatalog">
+   <Summary> 
+   (Set|Get) The InitialCatalog as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:22:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._Remember">
+   <Summary> 
+   The discret variable _Remember as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:25:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Remember">
+   <Summary> 
+   (Set|Get) The Remember as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:25:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase._Port">
+   <Summary> 
+   The discret variable _Port as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:59:06:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.DataBase.Port">
+   <Summary> 
+   (Set|Get) The Port as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.19 12:59:06:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartFiles.DataBase.Import(System.Boolean)">
+   <Summary>
+   The method Sub1
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:29:56:000 | Printed at : 2021.08.13 01:30:17:446
+   </Summary>
+ <param name="format">The format as Boolean.</param>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.OleDb_Con">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:42:28:000 | Printed at : 2021.08.13 01:30:17:447
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.OleDb_Cmd">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:44:08:000 | Printed at : 2021.08.13 01:30:17:447
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.OleDb_DataReader">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:44:51:000 | Printed at : 2021.08.13 01:30:17:447
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.OleDb_DataAdapter">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:46:11:000 | Printed at : 2021.08.13 01:30:17:448
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Sql_Con">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:47:05:000 | Printed at : 2021.08.13 01:30:17:448
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Sql_Cmd">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:47:26:000 | Printed at : 2021.08.13 01:30:17:448
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Sql_DataReader">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:47:49:000 | Printed at : 2021.08.13 01:30:17:449
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.Sql_DataAdapter">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:48:19:000 | Printed at : 2021.08.13 01:30:17:449
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.ApplyFormat">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:48:49:000 | Printed at : 2021.08.13 01:30:17:449
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.DataBase.ImportDirectly">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.13 00:49:27:000 | Printed at : 2021.08.13 01:30:17:450
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.Fichier">
+   <Summary> 
+   Just like the System.IO.FileInfo but with more complexe functions.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:10:26:356 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartFiles.Fichier.SaveFile(System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will clone the Fichier class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 14:10:07:373 | Printed at : 2021.08.12 14:10:23:805
+   </Summary>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.Fichier.Serialize(SmartOffice.SmartFiles.Fichier,System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will save the Fichier class object in a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 14:10:10:386 | Printed at : 2021.08.12 14:10:23:805
+   </Summary>
+ <param name="obj">Please enter a valid Fichier.</param>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.Fichier.Deserialize(System.String)">
+   <Summary>
+   This method will open the Fichier class object from a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 14:10:11:131 | Printed at : 2021.08.12 14:10:23:807
+   </Summary>
+ <param name="target">Please enter the full path of a file</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.Fichier.Clone">
+   <Summary>
+   This method will clone the Fichier class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 14:10:12:162 | Printed at : 2021.08.12 14:10:23:807
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Fichier.#ctor">
+ <summary>
+ Create new empty class
+ </summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Fichier.#ctor(System.String,System.String)">
+ <summary>
+ Create a new classs with the given filepath to the file
+ </summary>
+ <param name="FilePath"></param>
+ <param name="Password"></param>
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._Access">
+   <Summary> 
+   The discret variable _Access as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:11:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Access">
+   <Summary> 
+   (Set|Get) The Access as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:11:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._Created">
+   <Summary> 
+   The discret variable _Created as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:12:19:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Created">
+   <Summary> 
+   (Set|Get) The Created as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:12:19:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._Modified">
+   <Summary> 
+   The discret variable _Modified as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:12:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Modified">
+   <Summary> 
+   (Set|Get) The Modified as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:12:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Age">
+   <Summary> 
+   The discret variable _Age as TimeSpan.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:12:54:000 | Status : UnderConstruction
+   </Summary> 
+   Private _Age As TimeSpan = New TimeSpan()
+   <Summary> 
+   (Get) The Age as TimeSpan.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:12:54:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:16:29:000 | Status : UnderConstruction
+   </Summary> 
+   Private _Name As String = ""
+   <Summary> 
+   (Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:16:29:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.FileName">
+   <Summary> 
+   The discret variable _FileName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:19:51:000 | Status : UnderConstruction
+   </Summary> 
+   Private _FileName As String = ""
+   <Summary> 
+   (Get) The FileName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:19:51:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.FilePath">
+   <Summary> 
+   The discret variable _FilePath as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:20:32:000 | Status : UnderConstruction
+   </Summary> 
+   Private _FilePath As String = ""
+   <Summary> 
+   (Get) The FilePath as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:20:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.FullName">
+   <Summary> 
+   The discret variable _FullName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:21:00:000 | Status : UnderConstruction
+   </Summary> 
+   Private _FullName As String = ""
+   <Summary> 
+   (Get) The FullName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:21:00:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._Icon">
+   <Summary> 
+   The discret variable _Icon as Image.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:22:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Icon">
+   <Summary> 
+   (Set|Get) The Icon as Image.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:22:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._Description">
+   <Summary> 
+   The discret variable _Description as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:22:47:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Description">
+   <Summary> 
+   (Set|Get) The Description as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:22:47:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._FileSize">
+   <Summary> 
+   The discret variable _FileSize as ResultOutput.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:23:20:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.FileSize">
+   <Summary> 
+   (Set|Get) The FileSize as ResultOutput.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:23:20:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Extension">
+   <Summary> 
+   The discret variable _Extension as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:23:56:000 | Status : UnderConstruction
+   </Summary> 
+   Private _Extension As String = ""
+   <Summary> 
+   (Get) The Extension as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:23:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Parent">
+   <Summary> 
+   The discret variable _Parent as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:37:09:000 | Status : UnderConstruction
+   </Summary> 
+   Private _Parent As String = ""
+   <Summary> 
+   (Get) The Parent as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:37:09:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._Target">
+   <Summary> 
+   The discret variable _Target as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:40:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Target(System.String)">
+   <Summary> 
+   (Set|Get) The Target as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:40:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._Password">
+   <Summary> 
+   The discret variable _Password as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:51:40:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Password">
+   <Summary> 
+   (Set|Get) The Password as String.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:51:40:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.Exists">
+   <Summary> 
+   The discret variable _Exists as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:52:29:000 | Status : UnderConstruction
+   </Summary> 
+   Private _Exists As Boolean = False
+   <Summary> 
+   (Get) The Exists as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:52:29:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._IsCompressed">
+   <Summary> 
+   The discret variable _IsCompressed as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:54:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.IsCompressed">
+   <Summary> 
+   (Set|Get) The IsCompressed as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:54:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._IsHidden">
+   <Summary> 
+   The discret variable _IsHidden as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:55:48:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.IsHidden">
+   <Summary> 
+   (Set|Get) The IsHidden as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:55:48:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._IsReadable">
+   <Summary> 
+   The discret variable _IsReadable as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:56:06:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.IsReadable">
+   <Summary> 
+   (Set|Get) The IsReadable as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:56:06:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._IsImage">
+   <Summary> 
+   The discret variable _IsImage as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:56:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.IsImage">
+   <Summary> 
+   (Set|Get) The IsImage as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:56:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._IsDataBase">
+   <Summary> 
+   The discret variable _IsDataBase as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:58:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.IsDataBase">
+   <Summary> 
+   (Set|Get) The IsDataBase as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:58:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Fichier._IsEncrypted">
+   <Summary> 
+   The discret variable _IsEncrypted as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:58:53:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Fichier.IsEncrypted">
+   <Summary> 
+   (Set|Get) The IsEncrypted as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.12 13:58:53:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartFiles.Fichier.Reset">
+   <Summary>
+   This method will reset the Fichier class.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 14:10:06:780 | Printed at : 2021.08.12 14:10:23:812
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Fichier.Read(System.String)">
+   <Summary>
+   This method will open the Fichier class object from a file.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.12 14:10:09:249 | Printed at : 2021.08.12 14:10:23:813
+   </Summary>
+ <param name="filepath">Please enter the full path of a file</param>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Target(System.Boolean)">
+    <Summary>
+     (Set|Get) The Target as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2021/03/15 15h07:901 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Name">
+    <Summary>
+     (Set|Get) The Name as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2021/03/15 15h08:857 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Parent">
+    <Summary>
+     (Set|Get) The Parent as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2021/03/15 15h09:045 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.ParentName">
+    <Summary>
+     (Set|Get) The ParentName as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2021/03/15 15h09:388 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.FolderSize">
+    <Summary>
+     (Set|Get) The FolderSize as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2021/03/15 15h13:236 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Roots">
+    <Summary>
+     (Set|Get) The Roots as List(Of String).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2021/03/15 15h14:516 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Root">
+    <Summary>
+     (Set|Get) The Root as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\Saadry | Time : 2020/09/12 11h06:394 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Access">
+    <Summary>
+     (Set|Get) The Access as DateTime.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 13h55:687 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Modified">
+    <Summary>
+     (Set|Get) The Modified as DateTime.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 13h56:134 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Created">
+    <Summary>
+     (Set|Get) The Created as DateTime.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 13h56:769 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Age">
+    <Summary>
+     (Get) The Age as TimeSpan.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 13h57:772 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Fichiers">
+    <Summary>
+     (Set|Get) The Fichiers as List(Of Fichier).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 14h05:444 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Files">
+    <Summary>
+     (Set|Get) The Files as List(Of IO.FileInfo).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 14h49:963 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Folders">
+    <Summary>
+     (Set|Get) The Folders as List(Of Folder).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 14h55:882 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Directories">
+    <Summary>
+     (Set|Get) The Directories as List(Of IO.DirectoryInfo).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 14h55:011 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.FilesSystem">
+    <Summary>
+     (Set|Get) The FilesSystem as List(Of IO.FileSystemInfo).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 14h58:625 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.Exists">
+    <Summary>
+     (Get) The Exists as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/30 14h34:054 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.IsHidden">
+    <Summary>
+     (Set|Get) The IsHidden as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/29 15h28:865 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.IsAccessible">
+    <Summary>
+     (Set|Get) The IsAccessible as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/29 15h29:213 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Folder.IsEncrypted">
+    <Summary>
+     (Set|Get) The IsEncrypted as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/29 19h58:334 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+    <see cref="P:SmartOffice.SmartFiles.Folder.Target(System.Boolean)"/>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.EnumerateFolder(System.String,System.IO.SearchOption)">
+ <summary>
+ Enumerate folders.
+ </summary>
+ <param name="SearchExpression"></param>
+ <param name="SearchOption"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.EnumerateFichier(System.String,System.IO.SearchOption)">
+ <summary>
+ Enumerate Fichier.
+ </summary>
+ <param name="SearchExpression"></param>
+ <param name="SearchOption"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.EnumerateFiles(System.String,System.IO.SearchOption)">
+ <summary>
+ Enumerate IO.FileInfo.
+ </summary>
+ <param name="SearchExpression"></param>
+ <param name="SearchOption"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.EnumerateDirectories(System.String,System.IO.SearchOption)">
+ <summary>
+ Enumerate IO.DirectoryInfo.
+ </summary>
+ <param name="SearchExpression"></param>
+ <param name="SearchOption"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.EnumerateFilesSystem(System.String,System.IO.SearchOption)">
+ <summary>
+ Enumerate IO.FileSystemInfo.
+ </summary>
+ <param name="SearchExpression"></param>
+ <param name="SearchOption"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.GetFolders(System.String,System.IO.SearchOption)">
+ <summary>
+ Get the directories.
+ </summary>
+ <param name="SearchExpression"></param>
+ <param name="SearchOption"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.GetFichiers(System.String,System.IO.SearchOption)">
+ <summary>
+ Get the Fichiers.
+ </summary>
+ <param name="SearchExpression"></param>
+ <param name="SearchOption"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.GetFileSystemEntries(System.String,System.IO.SearchOption)">
+ <summary>
+ GetFileSystemEntries.
+ </summary>
+ <param name="SearchExpression"></param>
+ <param name="SearchOption"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Folder.#ctor">
+ <summary>
+ clear the class
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.Provider">
+   <Summary> 
+   This class Provides the basic information to set up the Connection Builder.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:05:58:191 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="T:SmartOffice.SmartFiles.Provider.AgentType">
+   <Summary>
+   The type of provider instrument that can be used.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 16:11:05:000 | Printed at : 2021.08.19 16:39:50:998
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.AgentType.OLEDB4">
+   <Summary>
+   This will use the Microsoft.Jet.OLEDB.4.0 technology. Normally used for Dbf types and old Microsoft Office type (xls, mdb).
+   Printed at : 2021.08.19 16:39:50:998
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.AgentType.OLEDB12">
+   <Summary>
+   This will use the Microsoft.ACE.OLEDB.12.0 technology. You need to have Microsoft Access Runtime installed.
+   Printed at : 2021.08.19 16:39:50:998
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.AgentType.SQL">
+   <Summary>
+   Will use the SqlClient instrument to manipulate the database.
+   Printed at : 2021.08.19 16:39:50:998
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.Provider.ConnectionType">
+   <Summary>
+   Define the type of connection in use.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 16:28:53:000 | Printed at : 2021.08.19 16:39:50:998
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.ConnectionType.Local">
+   <Summary>
+   Will use a local connection or a network connection type.
+   Printed at : 2021.08.19 16:39:50:998
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.ConnectionType.Remote">
+   <Summary>
+   The Database is located on a remote location.
+   Printed at : 2021.08.19 16:39:50:998
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.Serialize(SmartOffice.SmartFiles.Provider,System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will save the Provider class object in a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 16:49:16:843 | Printed at : 2021.08.19 17:00:53:516
+   </Summary>
+ <param name="obj">Please enter a valid Provider.</param>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.Deserialize(System.String)">
+ <summary>
+ Will open a file and deserialize it
+ </summary>
+ <param name="Target"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.Save(System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will clone the Provider class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:03:03:123 | Printed at : 2021.08.19 17:03:09:754
+   </Summary>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.Save">
+   <Summary>
+   This method will clone the Provider class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:03:03:123 | Printed at : 2021.08.19 17:03:09:754
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.GetProviders">
+   <Summary>
+   Get the exisitng providers.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:38:20:000 | Printed at : 2021.08.19 18:04:40:584
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.#ctor">
+   <Summary>
+   An empty loader class
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:28:58:591 | Printed at : 2021.08.19 17:29:17:938
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.#ctor(System.String)">
+   <Summary>
+  Will open a Provider from a filepath.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:28:58:591 | Printed at : 2021.08.19 17:29:17:938
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.#ctor(System.Int32,System.String,System.Collections.Generic.List{System.String},System.Boolean,SmartOffice.SmartFiles.Provider.AgentType,System.String,System.String,System.String,System.Boolean,System.String,System.String)">
+   <Summary>
+   An empty loader class
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:36:09:501 | Printed at : 2021.08.19 17:36:09:697
+   </Summary>
+ <param name="id">(Set|Get) The ID as int.</param>
+ <param name="name">(Set|Get) The Name as string.</param>
+ <param name="extensions">(Set|Get) The Extensions as List(string).</param>
+ <param name="enable">(Set|Get) The Enable as bool.</param>
+ <param name="agent">(Set|Get) The Agent as AgentType.</param>
+ <param name="extendedproperty_0">(Set|Get) The ExtendedProperty_0 as string.</param>
+ <param name="extendedproperty_1">(Set|Get) The ExtendedProperty_1 as string.</param>
+ <param name="extendedproperty_2">(Set|Get) The ExtendedProperty_2 as string.</param>
+ <param name="usesql">(Set|Get) The UseSql as bool.</param>
+ <param name="libraryfile">(Set|Get) The LibraryFile as string.</param>
+ <param name="downloadurl">(Set|Get) The DownloadUrl as string.</param>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._ID">
+   <Summary> 
+   The discret variable _ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:18:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.ID">
+   <Summary> 
+   (Set|Get) The ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:18:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:18:57:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:18:57:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.SerializedFile">
+   <Summary> 
+   (Get) The SerializedFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:19:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._Enable">
+   <Summary> 
+   The discret variable _Enable as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:24:16:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.Enable">
+   <Summary> 
+   (Set|Get) The Enable as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:24:16:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._Extensions">
+   <Summary> 
+   The discret variable _Extensions as List(Of String).
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:22:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.Extensions">
+   <Summary> 
+   (Set|Get) The Extensions as List(Of String).
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:22:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._Agent">
+   <Summary> 
+   The discret variable _Agent as AgentType.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:25:17:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.Agent">
+   <Summary> 
+   (Set|Get) The Agent as AgentType.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:25:17:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._ExtendedProperty_0">
+   <Summary> 
+   The discret variable _ExtendedProperty_0 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:26:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.ExtendedProperty_0">
+   <Summary> 
+   (Set|Get) The ExtendedProperty_0 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:26:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._ExtendedProperty_1">
+   <Summary> 
+   The discret variable _ExtendedProperty_1 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:26:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.ExtendedProperty_1">
+   <Summary> 
+   (Set|Get) The ExtendedProperty_1 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:26:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._ExtendedProperty_2">
+   <Summary> 
+   The discret variable _ExtendedProperty_2 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:26:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.ExtendedProperty_2">
+   <Summary> 
+   (Set|Get) The ExtendedProperty_2 as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:26:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._UseSql">
+   <Summary> 
+   The discret variable _UseSql as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:28:30:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.UseSql">
+   <Summary> 
+   (Set|Get) The UseSql as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:28:30:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._LibraryFile">
+   <Summary> 
+   The discret variable _LibraryFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:32:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.LibraryFile">
+   <Summary> 
+   (Set|Get) The LibraryFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:32:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.LibraryFile_Exists">
+   <Summary> 
+   (Get) The LibraryFile_Exists as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:32:40:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider._DownloadUrl">
+   <Summary> 
+   The discret variable _DownloadUrl as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:35:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartFiles.Provider.DownloadUrl">
+   <Summary> 
+   (Set|Get) The DownloadUrl as String.
+   Author : MASTER\DSI
+   Created : 2021.08.19 16:35:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.Open">
+   <Summary>
+   This method will open the Provider class object from a file.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:06:34:729 | Printed at : 2021.08.19 17:07:13:977
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.Provider.Open(System.String)">
+   <Summary>
+   This method will open the Provider class object from a file.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:06:34:729 | Printed at : 2021.08.19 17:07:13:977
+   </Summary>
+ <param name="filepath">Please enter the full path of a file</param>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.Dir">
+   <Summary>
+   The directory path where all Provider will be staured.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 16:08:56:000 | Printed at : 2021.08.19 16:39:51:065
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.Extension">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 16:10:14:000 | Printed at : 2021.08.19 16:39:51:065
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.DownloadDir">
+   <Summary>
+   The default directory for downloading providers.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 16:38:15:000 | Printed at : 2021.08.19 16:39:51:066
+   </Summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.Provider.Providers">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.19 17:38:55:000 | Printed at : 2021.08.19 17:39:53:967
+   </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.SizeInfo">
+ <summary>
+ This class helps to calculate drive, folder or file size
+ </summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.Raw">
+    <Summary>
+     (Set|Get) The Raw as ULong.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h21:463 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.Bytes">
+    <Summary>
+    (Get) Return the value in bytes.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h26:195 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    <see cref="P:SmartOffice.SmartFiles.SizeInfo.Raw"/>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.KiloBytes">
+    <Summary>
+    (Get) Return the value in kilobytes.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h31:834 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.MegaBytes">
+    <Summary>
+   (Get) Return the value in megabytes.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h33:402 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.GigaBytes">
+    <Summary>
+    (Get) Return the value in gigabytes.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h34:571 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.TeraBytes">
+    <Summary>
+    (Get) Return the value in terabytes.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h36:521 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.Scale">
+    <Summary>
+     (Set|Get) The Scale as Scales.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h43:850 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    <see cref="P:SmartOffice.SmartFiles.SizeInfo.Raw"/>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.ScaleString">
+    <Summary>
+   (Get) The ScaleString as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h48:874 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    <see cref="P:SmartOffice.SmartFiles.SizeInfo.Scale"/>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.Value">
+    <Summary>
+     (Get) The Value as Double.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h53:055 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    <see cref="P:SmartOffice.SmartFiles.SizeInfo.Scale"/>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.SizeInfo.Display">
+    <Summary>
+     (Get) The Display as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/28 13h51:775 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.SizeInfo.Scales">
+ <Summary>
+ (Set|Get) The enumeration of Scales.
+ </Summary>
+ <AuthorEmail>saadry.dunkel@outlook.com</AuthorEmail>
+ <AuthorName>Saadry Dunkel Consultant</AuthorName>
+ <AuthorUri>http://www.saadry-dunkel.com</AuthorUri>
+ <Published>MASTER From MASTER\Saadry | Time : 2020/04/28 13h23:209 </Published>
+ <Updated>[Created=2019/04/16 14h15:209][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+</member>
+<member name="F:SmartOffice.SmartFiles.SizeInfo.Scales.Bytes">
+ <summary>Range : x={0:1023} </summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.SizeInfo.Scales.Kilobyte">
+ <summary>Range : x={1'024 : 1'048'575} </summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.SizeInfo.Scales.Megabyte">
+ <summary>Range : x={1'048'576 : 1'073'741'823} </summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.SizeInfo.Scales.Gigabyte">
+ <summary>Range : x={1'073'741'824 : 1'099'511'627'775} </summary>
+</member>
+<member name="F:SmartOffice.SmartFiles.SizeInfo.Scales.Terabyte">
+ <summary>Range : x={1'099'511'627'776 : infinity}  </summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.SizeInfo.Convert_Size(System.UInt64,SmartOffice.SmartFiles.SizeInfo.Scales)">
+ <summary>
+ This function enables to convert a size into a desired format or automatic formating
+ </summary>
+ <param name="Raw"></param>
+ <param name="Format"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.SizeInfo.#ctor">
+ <summary>
+ Create a new empty class object
+ </summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.SizeInfo.#ctor(System.UInt64)">
+ <summary>
+ Create a new class with the given value automatically formatted
+ </summary>
+ <param name="Value"></param>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.URL">
+    <Summary>
+     (Set|Get) The URL as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h19:642 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.Folder">
+    <Summary>
+     (Set|Get) The Folder as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h19:671 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.Name">
+    <Summary>
+     (Set|Get) The Name as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h20:226 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.Extension">
+    <Summary>
+     (Set|Get) The Extension as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h20:836 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.FileName">
+    <Summary>
+    (Get) The FileName as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h21:674 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.Operator">
+    <Summary>
+     (Set|Get) The Operator as Net.WebClient.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h23:770 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.Speed">
+    <Summary>
+     (Set|Get) The Speed as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h24:580 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.Downloaded">
+    <Summary>
+     (Set|Get) The Downloaded as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h25:766 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.Total">
+    <Summary>
+     (Set|Get) The Total as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h25:380 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.Percentage">
+    <Summary>
+     (Set|Get) The Percentage as Double.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h26:254 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.IsDownloading">
+    <Summary>
+     (Set|Get) The IsDownloading as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h26:966 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.HasDownloaded">
+    <Summary>
+     (Set|Get) The HasDownloaded as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h27:093 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.DownloadAgent.OutputFile">
+    <Summary>
+   (Get) The OutputFile as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/15 11h30:762 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.DownloadAgent.Download">
+ <summary>
+ Start the downloading process
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartFiles.DownloadAgent.ValueChanged">
+ <summary>
+ Inform that the process has started
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartFiles.DownloadAgent.FileReady">
+ <summary>
+ Inform that the process has finished and that the file is ready
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartFiles.PC">
+ <summary>
+ Represent all information needed about your computer
+ </summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Name">
+    <Summary>
+     (Get) (Get) The Name as  String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h32:961 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drives">
+    <Summary>
+     (Get) (Get) The Drives as List(Of Drive).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h22:049 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Culture">
+    <Summary>
+     (Get) (Get) The Culture as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h25:073 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.TotalSize">
+    <Summary>
+     (Get) (Get) The TotalSize as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h27:108 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.TotalSpaceUsed">
+    <Summary>
+     (Get) (Get) The TotalSpaceUsed as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h30:279 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.TotalSizeAvailable">
+    <Summary>
+     (Get) (Get) The TotalSizeAvailable as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h32:311 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.TotalSizeFree">
+    <Summary>
+     (Get) (Get) The TotalSizeFree as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h33:152 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.AvailablePhysicalMemory">
+    <Summary>
+     (Get) (Get) The AvailablePhysicalMemory as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h35:013 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.TotalPhysicalMemory">
+    <Summary>
+     (Get) (Get) The TotalPhysicalMemory as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h37:369 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.AvailableVirtualMemory">
+    <Summary>
+     (Get) (Get) The AvailableVirtualMemory as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h37:387 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.TotalVirtualMemory">
+    <Summary>
+     (Get) (Get) The TotalVirtualMemory as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h38:683 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.OS">
+    <Summary>
+     (Get) (Get) The OS as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h40:228 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.OSPlatform">
+    <Summary>
+     (Get) (Get) The OSPlatform as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h41:975 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.OSVersion">
+    <Summary>
+     (Get) (Get) The OSVersion as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h41:871 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.OS_Architecture">
+    <Summary>
+     (Get) (Get) The OS_Architecture as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h42:860 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftAccess">
+    <Summary>
+     (Get) (Get) The MicrosoftAccess as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h49:466 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftExcel">
+    <Summary>
+     (Get) (Get) The MicrosoftExcel as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h50:098 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftOneNote">
+    <Summary>
+     (Get) (Get) The MicrosoftOneNote as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h51:363 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftPowerPoint">
+    <Summary>
+     (Get) (Get) The MicrosoftPowerPoint as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h52:618 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftPublisher">
+    <Summary>
+     (Get) (Get) The MicrosoftPublisher as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h53:099 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftWord">
+    <Summary>
+     (Get) (Get) The MicrosoftWord as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h53:679 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftAccessRuntime">
+    <Summary>
+     (Get) (Get) The MicrosoftAccessRuntime as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h54:755 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftGroove">
+    <Summary>
+     (Get) (Get) The MicrosoftGroove as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h54:269 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftInfoPath">
+    <Summary>
+     (Get) (Get) The MicrosoftInfoPath as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h55:220 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MicrosoftOutlook">
+    <Summary>
+     (Get) (Get) The MicrosoftOutlook as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h56:497 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.IsMSOfficeInstalled">
+    <Summary>
+     (Get) (Get) The IsMSOfficeInstalled as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h47:703 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MSOffice32">
+    <Summary>
+     (Get) (Get) The MSOffice32 as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h48:790 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.MSOffice64">
+    <Summary>
+     (Get) (Get) The MSOffice64 as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h48:552 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.IsVLCInstalled">
+    <Summary>
+     (Get) (Get) The IsVLCInstalled as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h59:862 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.VLC_URL">
+    <Summary>
+     (Get) (Get) The VLC_URL as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 16h00:653 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.PC.IsApplicationInstalled(SmartOffice.SmartFiles.PC.MicrosoftApplication)">
+ <summary>
+ Determine if the Microsoft Application exist
+ </summary>
+ <param name="Element"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartFiles.PC.StartMsApplication(SmartOffice.SmartFiles.PC.MicrosoftApplication)">
+ <summary>
+ Open the application
+ </summary>
+ <param name="Element"></param>
+ <returns></returns>
+</member>
+<member name="T:SmartOffice.SmartFiles.PC.Drive">
+ <summary>
+ Represent a Drive as IO.DriveInfo
+ </summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.Name">
+    <Summary>
+     (Set|Get) The Name as  String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h35:802 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.Letter">
+    <Summary>
+     (Set|Get) The Letter as  String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h35:274 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.Drive">
+    <Summary>
+     (Set|Get) The Drive as DriveLetter.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h40:572 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.Active">
+    <Summary>
+     (Set|Get) The Active as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h44:849 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.ConnectionStatus">
+    <Summary>
+     (Set|Get) The ConnectionStatus as DriveStatus.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h47:602 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.Target">
+    <Summary>
+     (Set|Get) The Target as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h48:088 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.Type">
+    <Summary>
+     (Set|Get) The Type as DriveType.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h56:375 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.Drives">
+    <Summary>
+     (Set|Get) The Drives as List(Of Drive).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 15h09:512 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.TotalSize">
+    <Summary>
+     (Set|Get) The TotalSize as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h48:719 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.TotalSpaceUsed">
+    <Summary>
+     (Set|Get) The TotalSpaceUsed as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h49:726 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.TotalSizeAvailable">
+    <Summary>
+     (Set|Get) The TotalSizeAvailable as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h49:671 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Drive.TotalSizeFree">
+    <Summary>
+     (Set|Get) The TotalSizeFree as SizeInfo.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/14 14h50:583 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Software.Name">
+    <Summary>
+     (Set|Get) The Name as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From  | Time : 2019/05/20 19h59:177 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Software.Origine">
+    <Summary>
+     (Set|Get) The Origine as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From  | Time : 2019/05/20 19h59:468 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PC.Software.UrlUpdateInfo">
+    <Summary>
+     (Set|Get) The UrlUpdateInfo as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From  | Time : 2019/05/20 20h00:163 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="M:SmartOffice.SmartFiles.ConnectionStringMaker.Btn_Search_SQLServer_Click(System.Object,System.EventArgs)">
+ <summary>
+ Searching all SQL Server in the network
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="P:SmartOffice.SmartFiles.Input_Object.Langue">
+    <Summary>
+     (Set|Get) The Langue as LangueDLL.Langues.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 16h41:149 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Input_Object.Type">
+    <Summary>
+     (Set|Get) The Type as Access_DataType.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 16h21:193 </Published>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Input_Object.Format">
+    <Summary>
+     (Set|Get) The Format as Element.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 18h25:071 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Input_Object.ValueObject">
+    <Summary>
+     (Set|Get) The Value as Object.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 19h03:289 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.Input_Object.Current">
+    <Summary>
+     (Set|Get) The Current as VirtualItem.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 16h29:777 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.Items">
+    <Summary>
+     (Set|Get) The Items as List(Of VirtualItem).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 20h47:401 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.Sql_Parameters">
+    <Summary>
+     (Get) (Get) The Sql_Parameters as List(Of SqlClient.SqlParameter).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 20h48:100 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.OleDb_Parameters">
+    <Summary>
+     (Get) (Get) The OleDb_Parameters as List(Of OleDb.OleDbParameters).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 20h49:083 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.Table">
+    <Summary>
+     (Set|Get) The Table as Table.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 20h56:671 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.Test_Table">
+    <Summary>
+     (Get) (Get) The Test_Table as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 20h56:469 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.Test_Design">
+    <Summary>
+     (Get) (Get) The Test_Design as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 20h58:721 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.VisualItems">
+    <Summary>
+     (Set|Get) The Items as List(Of Input_Object).
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 20h59:690 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.SelectedIndex">
+    <Summary>
+     (Set|Get) The SelectedIndex as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 20h49:901 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.PanelContainer.Langue">
+    <Summary>
+     (Set|Get) The Langue as LangueDLL.Langues.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 23h18:215 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.TableEx.Current">
+    <Summary>
+     (Set|Get) The Current as Table.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/15 15h21:021 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartFiles.TableEx.Langue">
+    <Summary>
+     (Set|Get) The Langue as Langues.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/04/16 13h44:319 </Published>
+      <Rights>
+         Copyright on SmartOffice programming tools.
+    All rights, including those for reproduction, reprinting and translation of training materials are the property of David Shaw Informatique Sàrl or the specified supplier. The
+    training materials may not be reproduced in any form, used for academic purposes, or used for public
+    without the prior written permission of David Shaw Informatique Sàrl.
+    The software, components and data used in the course are protected by copyright and should not be copied on any media or
+    taken out of the classroom.
+       </Rights>
+ '''    <Updated>[Created=][Status=Working][Tested On]22/04/2020 00h10:555[/Tested On]</Updated>
+    </Summary>
+</member>
+</members>
+</doc>

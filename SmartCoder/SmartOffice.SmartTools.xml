@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SmartOffice.SmartTools
+</name>
+</assembly>
+<members>
+<member name="T:SmartOffice.SmartTools.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartTools.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartTools.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.RefreshClick">
+ <summary>
+ Action triggered when the Button refresh is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.FirstClick">
+ <summary>
+ Action triggered when the Button First is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.BackClick">
+ <summary>
+ Action triggered when the Button Back is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.NextClick">
+ <summary>
+ Action triggered when the Button Next is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.LastClick">
+ <summary>
+ Action triggered when the Button Last is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.NewClick">
+ <summary>
+ Action triggered when the Button New is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.SaveClick">
+ <summary>
+ Action triggered when the Button Save is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.DeleteClick">
+ <summary>
+ Action triggered when the Button Delete is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.InfoClick">
+ <summary>
+ Action triggered when the Button Info is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.SelectedIndexChanged">
+ <summary>
+ Action triggered when the SelectedIndex has changed
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.HelpClick">
+ <summary>
+ Action triggered when the button Help has been clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBar.LangueChanged">
+ <summary>
+ Action triggered when the langue has been changed
+ </summary>
+</member>
+<member name="F:SmartOffice.SmartTools.NavBar._DataSource">
+   <Summary> 
+   The discret variable _DataSource as IEnumerable(Of Object).
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:03:42:159 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBar.DataSource">
+   <Summary> 
+   (Set|Get) The DataSource as IEnumerable(Of Object).
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:03:42:159 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBar.Count">
+   <Summary> 
+   (Get) The Count as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:04:46:358 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBar._AutomaticRefresh">
+   <Summary> 
+   The discret variable _AutomaticRefresh as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:18:23:757 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBar.AutomaticRefresh">
+   <Summary> 
+   (Set|Get) The AutomaticRefresh as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:18:23:757 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBar._HelpForm">
+   <Summary> 
+   The discret variable _HelpForm as System.Windows.Forms.Form.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:19:27:154 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBar.HelpForm">
+   <Summary> 
+   (Set|Get) The HelpForm as System.Windows.Forms.Form.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:19:27:154 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBar._SelectedItem">
+   <Summary> 
+   The discret variable _SelectedItem as Object.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:06:36:750 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBar.SelectedItem">
+   <Summary> 
+   (Set|Get) The SelectedItem as Object.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:06:36:750 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBar._SelectedIndex">
+   <Summary> 
+   The discret variable _SelectedIndex as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:08:01:707 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBar.SelectedIndex">
+   <Summary> 
+   (Set|Get) The SelectedIndex as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:08:01:707 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBar._PropertyObject">
+   <Summary> 
+   The discret variable _PropertyObject as DevComponents.DotNetBar.AdvPropertyGrid.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:11:07:024 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBar.PropertyObject">
+   <Summary> 
+   (Set|Get) The PropertyObject as DevComponents.DotNetBar.AdvPropertyGrid.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:11:07:024 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBar._AddingNewItem">
+   <Summary> 
+   The discret variable _AddingNewItem as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:12:57:315 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBar.AddingNewItem">
+   <Summary> 
+   (Set|Get) The AddingNewItem as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:12:57:315 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartTools.NavBar.RefreshInterface">
+ <summary>
+ Depending on if the DataSource has Content, this method will adjust the visual appearance with the buttons for navigations
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.RefreshClick">
+ <summary>
+ Action triggered when the Button refresh is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.FirstClick">
+ <summary>
+ Action triggered when the Button First is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.BackClick">
+ <summary>
+ Action triggered when the Button Back is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.NextClick">
+ <summary>
+ Action triggered when the Button Next is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.LastClick">
+ <summary>
+ Action triggered when the Button Last is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.NewClick">
+ <summary>
+ Action triggered when the Button New is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.SaveClick">
+ <summary>
+ Action triggered when the Button Save is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.DeleteClick">
+ <summary>
+ Action triggered when the Button Delete is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.InfoClick">
+ <summary>
+ Action triggered when the Button Info is clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.SelectedIndexChanged">
+ <summary>
+ Action triggered when the SelectedIndex has changed
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.HelpClick">
+ <summary>
+ Action triggered when the button Help has been clicked
+ </summary>
+</member>
+<member name="E:SmartOffice.SmartTools.NavBarItem.LangueChanged">
+ <summary>
+ Action triggered when the langue has been changed
+ </summary>
+</member>
+<member name="F:SmartOffice.SmartTools.NavBarItem._DataSource">
+   <Summary> 
+   The discret variable _DataSource as IEnumerable(Of Object).
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:03:42:159 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBarItem.DataSource">
+   <Summary> 
+   (Set|Get) The DataSource as IEnumerable(Of Object).
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:03:42:159 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBarItem.Count">
+   <Summary> 
+   (Get) The Count as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:04:46:358 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBarItem._AutomaticRefresh">
+   <Summary> 
+   The discret variable _AutomaticRefresh as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:18:23:757 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBarItem.AutomaticRefresh">
+   <Summary> 
+   (Set|Get) The AutomaticRefresh as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:18:23:757 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBarItem._HelpForm">
+   <Summary> 
+   The discret variable _HelpForm as System.Windows.Forms.Form.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:19:27:154 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBarItem.HelpForm">
+   <Summary> 
+   (Set|Get) The HelpForm as System.Windows.Forms.Form.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:19:27:154 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBarItem._SelectedItem">
+   <Summary> 
+   The discret variable _SelectedItem as Object.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:06:36:750 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBarItem.SelectedItem">
+   <Summary> 
+   (Set|Get) The SelectedItem as Object.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:06:36:750 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBarItem._SelectedIndex">
+   <Summary> 
+   The discret variable _SelectedIndex as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:08:01:707 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBarItem.SelectedIndex">
+   <Summary> 
+   (Set|Get) The SelectedIndex as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.13 13:08:01:707 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBarItem._PropertyObject">
+   <Summary> 
+   The discret variable _PropertyObject as DevComponents.DotNetBar.AdvPropertyGrid.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:11:07:024 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBarItem.PropertyObject">
+   <Summary> 
+   (Set|Get) The PropertyObject as DevComponents.DotNetBar.AdvPropertyGrid.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:11:07:024 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.NavBarItem._AddingNewItem">
+   <Summary> 
+   The discret variable _AddingNewItem as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:12:57:315 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.NavBarItem.AddingNewItem">
+   <Summary> 
+   (Set|Get) The AddingNewItem as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.07.13 14:12:57:315 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartTools.NavBarItem.RefreshInterface">
+ <summary>
+ Depending on if the DataSource has Content, this method will adjust the visual appearance with the buttons for navigations
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartTools.Translator">
+   <Summary> 
+   
+   Author : MASTER\DSI
+   Created : 2021.08.17 17:33:17:582 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartOffice.SmartTools.Translator.Translate(System.String,System.String,System.String)">
+   <Summary>
+   Translates the specified source text.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.17 17:39:18:000 | Printed at : 2021.08.17 18:10:45:495
+   </Summary>
+ <param name="sourcetext">The sourcetext as String.</param>
+ <param name="sourcelanguage">The sourcelanguage as String.</param>
+ <param name="targetlanguage">The targetlanguage as String.</param>
+</member>
+<member name="M:SmartOffice.SmartTools.Translator.LanguageEnumToIdentifier(System.String@)">
+   <Summary>
+   Converts a language to its identifier.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.17 18:02:55:000 | Printed at : 2021.08.17 18:10:45:496
+   </Summary>
+ <param name="language">The language as String.</param>
+</member>
+<member name="M:SmartOffice.SmartTools.Translator.EnsureInitialized">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.17 18:05:15:000 | Printed at : 2021.08.17 18:10:45:497
+   </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Translator.Languages">
+   <Summary> 
+   (Get) The Languages as IEnumerable(Of String).
+   Author : MASTER\DSI
+   Created : 2021.08.17 17:37:18:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.Translator._TranslationTime">
+   <Summary> 
+   The discret variable _TranslationTime as TimeSpan.
+   Author : MASTER\DSI
+   Created : 2021.08.17 17:38:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.Translator.TranslationTime">
+   <Summary> 
+   (Set|Get) The TranslationTime as TimeSpan.
+   Author : MASTER\DSI
+   Created : 2021.08.17 17:38:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.Translator._TranslationSpeechUrl">
+   <Summary> 
+   The discret variable _TranslationSpeechUrl as String.
+   Author : MASTER\DSI
+   Created : 2021.08.17 17:38:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.Translator.TranslationSpeechUrl">
+   <Summary> 
+   (Set|Get) The TranslationSpeechUrl as String.
+   Author : MASTER\DSI
+   Created : 2021.08.17 17:38:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.Translator._Error">
+   <Summary> 
+   The discret variable _Error as Exception.
+   Author : MASTER\DSI
+   Created : 2021.08.17 17:38:50:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartTools.Translator.Error">
+   <Summary> 
+   (Set|Get) The Error as Exception.
+   Author : MASTER\DSI
+   Created : 2021.08.17 17:38:50:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartTools.Translator._languageModeMap">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.17 18:10:27:000 | Printed at : 2021.08.17 18:10:45:540
+   </Summary>
+</member>
+<member name="M:SmartOffice.SmartTools.Serialization.Serialize(System.Object@,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Will save the data directly in a file.
+ </summary>
+ <param name="Obj">Choose any kind of class object</param>
+ <param name="Path">Choose a directory | if it does not exit it will be created automatically. Do not include (\) at the end.</param>
+ <param name="FileName">choose a file name | must be greater that 3 and without the (.) or the extension only the name of the file here.</param>
+ <param name="Extension">Choose the extension you want without putting the (.)</param>
+ <param name="Overwrite">Overwrite the file if it already exists?</param>
+ <returns>If string is empty then test is successfully done else put it in a msgbox or textbox object to read it.</returns>
+</member>
+<member name="M:SmartOffice.SmartTools.Serialization.Deserialize(System.String)">
+ <summary>
+ Will open a file and deserialize it
+ </summary>
+ <param name="Target"></param>
+ <returns></returns>
+</member>
+<member name="F:SmartOffice.SmartTools.Style._Name">
+    <Summary>
+     '''    Object Name :             Public  Class 
+    Author Information :      David Shaw Informatique Sàrl|saadry.dunkel@ds-informatique.ch|https://www.ds-informatique.ch
+    Contributor Information : ||
+    Creation Date :           2020/10/10 22h18:826
+    |Schema|
+    |ID| |ObjectType |{Quantity}||UnitPrice||Total
+    |00| |Importation|{2}||1  | |2
+    |01| |Properties |{30}||0.8| |24
+    |02| |Enumeration|{0}||0.4| |0
+    |03| |Structure  |{0}||0.4| |0
+    |04| |Sub        |{4}||1.2| |4.8
+    |05| |Function   |{4}||1.6| |6.4
+    |06| |Runtime    |{0}||0.4| |0
+    |07| |Loader     |{3}||0.8| |2.4
+    |08| |Class      |{1}||2| |2
+    |09| |Constante  |{0}||0.4| |0
+    |10| |Event      |{0}||1.2| |0
+    |11| |Members    |{0}||0.5| |0
+    |12| |Parameter  |{34}||0.5| |17
+    |Production Cost             |58.6
+    |Selling Price without VAT   |0
+    |Total TVA                   |0
+    |Grand Total                 |0
+    |/Schema|
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/10 23h16:974 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Name">
+    <Summary>
+     (Set|Get) The Name as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h15:370 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Enable">
+    <Summary>
+     (Set|Get) The Enable as Boolean.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 15h19:455 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.IconSize">
+    <Summary>
+     (Set|Get) The IconSize as SizeView.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/10 22h57:303 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Panel_Color1">
+    <Summary>
+     (Set|Get) The Panel_Color1 as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h16:473 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Panel_Color2">
+    <Summary>
+     (Set|Get) The Panel_Color2 as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h17:734 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Panel_Font">
+    <Summary>
+     (Set|Get) The Panel_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h17:446 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Panel_FontColor">
+    <Summary>
+     (Set|Get) The Panel_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h18:895 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Panel_CornerType">
+    <Summary>
+     (Set|Get) The Panel_CornerType as PanelStyle.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 15h27:307 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Panel_GradientAngle">
+    <Summary>
+     (Set|Get) The Panel_GradientAngle as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/10 22h19:476 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Theme_ID">
+    <Summary>
+     (Set|Get) The Theme_ID as Initalthemes.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/20 18h33:632 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Bar_Color1">
+    <Summary>
+     (Set|Get) The Bar_Color1 as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h19:636 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Bar_Color2">
+    <Summary>
+     (Set|Get) The Bar_Color2 as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h19:574 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Bar_Font">
+    <Summary>
+     (Set|Get) The Bar_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h20:642 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Bar_FontColor">
+    <Summary>
+     (Set|Get) The Bar_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h20:658 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Bar_CornerType">
+    <Summary>
+     (Set|Get) The Bar_CornerType as PanelStyle.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/10/01 10h53:681 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Bar_GradientAngle">
+    <Summary>
+     (Set|Get) The Bar_GradientAngle as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/10 22h21:780 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Bar_Button_ColorTable">
+    <Summary>
+     (Set|Get) The Bar_Button_ColorTable as ButtonStyle.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/17 11h26:638 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Theme">
+    <Summary>
+     (Set|Get) The Theme as DevComponents.DotNetBar.eStyle.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h21:576 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.ThemeColor">
+    <Summary>
+     (Set|Get) The ThemeColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h22:674 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Title_BackColor1">
+    <Summary>
+     (Set|Get) The Title_BackColor1 as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h24:774 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Title_BackColor2">
+    <Summary>
+     (Set|Get) The Title_BackColor2 as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h24:763 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Title_Font">
+    <Summary>
+     (Set|Get) The Title_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h25:801 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Title_FontColor">
+    <Summary>
+     (Set|Get) The Title_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h25:659 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Title_GradientAngle">
+    <Summary>
+     (Set|Get) The Title_GradientAngle as Integer.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/17 11h06:478 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Title_CornerType">
+    <Summary>
+     (Set|Get) The Title_CornerType as PanelStyle.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/17 11h07:775 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Label_Color">
+    <Summary>
+     (Set|Get) The Label_Color as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h47:843 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Label_Font">
+    <Summary>
+     (Set|Get) The Label_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h48:291 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Button_ColorTable">
+    <Summary>
+     (Set|Get) The Button_ColorTable as ButtonStyle.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/17 11h51:386 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Button_Font">
+    <Summary>
+     (Set|Get) The Button_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/17 11h52:675 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.H1_FontColor">
+    <Summary>
+     (Set|Get) The H1_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h50:216 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.H1_Font">
+    <Summary>
+     (Set|Get) The H1_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h50:043 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.H2_FontColor">
+    <Summary>
+     (Set|Get) The H2_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h51:617 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.H2_Font">
+    <Summary>
+     (Set|Get) The H2_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h51:185 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.H3_FontColor">
+    <Summary>
+     (Set|Get) The H3_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h52:544 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.H3_Font">
+    <Summary>
+     (Set|Get) The H3_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h53:180 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Paragraph_FontColor">
+    <Summary>
+     (Set|Get) The Paragraph_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h57:767 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Paragraph_Font">
+    <Summary>
+     (Set|Get) The Paragraph_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h58:353 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Error_FontColor">
+    <Summary>
+     (Set|Get) The Error_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h55:230 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Error_Font">
+    <Summary>
+     (Set|Get) The Error_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 13h56:069 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.SerializeFile">
+    <Summary>
+     (Set|Get) The SerializeFile as String.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>TOWER1 From TOWER1\Saadry | Time : 2020/09/29 10h28:479 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.Current">
+    <Summary>
+     (Set|Get) The Current as Style.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/17 15h05:131 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.SelectedTheme">
+    <Summary>
+     (Set|Get) The SelectedTheme as Initalthemes.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/10/17 15h11:915 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.TextBox_Font">
+    <Summary>
+     (Set|Get) The TextBox_Font as System.Drawing.Font.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/19 10h06:275 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.TextBox_FontColor">
+    <Summary>
+     (Set|Get) The TextBox_FontColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/19 10h07:994 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.TextBox_CornerType">
+    <Summary>
+     (Set|Get) The TextBox_CornerType as PanelStyle.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/19 10h07:909 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="P:SmartOffice.SmartTools.Style.TextBox_BackColor">
+    <Summary>
+     (Set|Get) The TextBox_BackColor as System.Drawing.Color.
+    <AuthorEmail>saadry.dunkel@ds-informatique.ch</AuthorEmail>
+    <AuthorName>David Shaw Informatique Sàrl</AuthorName>
+    <AuthorUri>https://www.ds-informatique.ch</AuthorUri>
+    <Published>MASTER From MASTER\DSI | Time : 2020/11/19 12h44:366 </Published>
+    <Updated>[Created=][Status=NotTested][Tested On]1/01/01 00h00:000[/Tested On]</Updated>
+    </Summary>
+</member>
+<member name="M:SmartOffice.SmartTools.Style.CollectObjFrom_Form(System.Windows.Forms.UserControl@)">
+ <summary>
+ 
+ </summary>
+ <param name="F">F must be of type {DevComponents.DotNetBar.OfficeForm,...</param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartTools.Style.Serialize(System.IO.FileInfo,System.Boolean)">
+ <summary>
+ Will save the Crediteur into a FilePath.
+ </summary>
+ <param name="FilePath">must contain the extension .Term</param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartTools.Style.Deserialize(System.IO.FileInfo)">
+ <summary>
+ Will Load the Langue from a FilePath.
+ </summary>
+ <param name="FilePath"></param>
+ <returns></returns>
+</member>
+<member name="M:SmartOffice.SmartTools.Style.#ctor">
+ <summary>
+ Prepare a new style and initalise all
+ </summary>
+</member>
+<member name="M:SmartOffice.SmartTools.Style.#ctor(System.IO.FileInfo)">
+ <summary>
+ Load the style from a  
+ </summary>
+ <param name="File"></param>
+</member>
+<member name="M:SmartOffice.SmartTools.Style.#ctor(System.String,System.Drawing.Color,System.Drawing.Color,System.Drawing.Font,System.Drawing.Color,SmartOffice.SmartTools.Info.PanelStyle,System.Int32,SmartOffice.SmartTools.Info.SizeView,System.Drawing.Color,System.Drawing.Color,System.Drawing.Font,System.Drawing.Color,SmartOffice.SmartTools.Info.PanelStyle,System.Int32,SmartOffice.SmartTools.Style.ButtonStyle,DevComponents.DotNetBar.eStyle,System.Drawing.Color,System.Drawing.Font,SmartOffice.SmartTools.Style.ButtonStyle,SmartOffice.SmartTools.Info.PanelStyle,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Font,System.Drawing.Color,System.Int32,System.Drawing.Color,System.Drawing.Font,System.Drawing.Color,System.Drawing.Font,System.Drawing.Color,System.Drawing.Font,System.Drawing.Color,System.Drawing.Font,System.Drawing.Color,System.Drawing.Font,System.Drawing.Color,System.Drawing.Font,System.Boolean,SmartOffice.SmartTools.Style.Initalthemes)">
+ <summary>
+ Create and save the new style.
+ </summary>
+ <param name="Name"></param>
+ <param name="Panel_Color1"></param>
+ <param name="Panel_Color2"></param>
+ <param name="Panel_Font"></param>
+ <param name="Panel_FontColor"></param>
+ <param name="Panel_CornerType"></param>
+ <param name="Panel_Gradient"></param>
+ <param name="Bar_Color1"></param>
+ <param name="Bar_Color2"></param>
+ <param name="Bar_Font"></param>
+ <param name="Bar_FontColor"></param>
+ <param name="Bar_CornerType"></param>
+ <param name="Bar_Gradient"></param>
+ <param name="Theme"></param>
+ <param name="ThemeColor"></param>
+ <param name="Title_BackColor1"></param>
+ <param name="Title_BackColor2"></param>
+ <param name="Title_Font"></param>
+ <param name="Title_FontColor"></param>
+ <param name="Title_Gradient"></param>
+ <param name="Label_Color"></param>
+ <param name="Label_Font"></param>
+ <param name="H1_FontColor"></param>
+ <param name="H1_Font"></param>
+ <param name="H2_FontColor"></param>
+ <param name="H2_Font"></param>
+ <param name="H3_FontColor"></param>
+ <param name="H3_Font"></param>
+ <param name="Paragraph_FontColor"></param>
+ <param name="Paragraph_Font"></param>
+ <param name="Error_FontColor"></param>
+ <param name="Error_Font"></param>
+ <param name="Enable"></param>
+</member>
+</members>
+</doc>

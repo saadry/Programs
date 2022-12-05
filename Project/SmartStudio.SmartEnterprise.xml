@@ -1,0 +1,2082 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SmartStudio.SmartEnterprise
+</name>
+</assembly>
+<members>
+<member name="T:SmartStudio.SmartEnterprise.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartStudio.SmartEnterprise.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartStudio.SmartEnterprise.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SmartStudio.SmartEnterprise.My.Resources.Resources.refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SmartStudio.SmartEnterprise.Client">
+   <Summary> 
+   
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:53:22:770 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="T:SmartStudio.SmartEnterprise.Client.ClientType">
+   <Summary>
+   The type of client.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.24 23:20:40:000 | Printed at : 2021.08.25 00:39:30:066
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client.ClientType.Individual">
+   <Summary>
+   This is a client without any company.
+   Printed at : 2021.08.25 00:39:30:066
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client.ClientType.Company">
+   <Summary>
+   The client is a company.
+   Printed at : 2021.08.25 00:39:30:066
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Client.Save(System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will clone the Client class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 00:38:48:238 | Printed at : 2021.08.25 00:39:30:066
+   </Summary>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Client.Serialize(SmartStudio.SmartEnterprise.Client,System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will save the Client class object in a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 00:38:53:066 | Printed at : 2021.08.25 00:39:30:067
+   </Summary>
+ <param name="obj">Please enter a valid Client.</param>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Client.Deserialize(System.String)">
+   <Summary>
+   This method will open the Client class object from a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 00:38:53:795 | Printed at : 2021.08.25 00:39:30:068
+   </Summary>
+ <param name="target">Please enter the full path of a file</param>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Client.Clone">
+   <Summary>
+   This method will clone the Client class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 00:38:54:394 | Printed at : 2021.08.25 00:39:30:147
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Client.#ctor(System.Int32,SmartStudio.SmartEnterprise.Client.ClientType,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,SmartStudio.SmartEnterprise.Enterprise,System.Boolean,System.DateTime,System.String,SmartStudio.SmartEnterprise.Enterprise.Company_Type,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.Byte[],System.Byte[])">
+   <Summary>
+   An empty loader class
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 00:39:13:575 | Printed at : 2021.08.25 00:39:30:226
+   </Summary>
+ <param name="id">(Set|Get) The ID as int.</param>
+ <param name="forme">(Set|Get) The Forme as ClientType.</param>
+ <param name="firstname">(Set|Get) The FirstName as string.</param>
+ <param name="lastname">(Set|Get) The LastName as string.</param>
+ <param name="greetings">(Set|Get) The Greetings as string.</param>
+ <param name="street">(Set|Get) The Street as string.</param>
+ <param name="streetnumber">(Set|Get) The StreetNumber as string.</param>
+ <param name="postalcode">(Set|Get) The PostalCode as string.</param>
+ <param name="town">(Set|Get) The Town as string.</param>
+ <param name="country">(Set|Get) The Country as string.</param>
+ <param name="landline">(Set|Get) The Landline as string.</param>
+ <param name="phone">(Set|Get) The Phone as string.</param>
+ <param name="email">(Set|Get) The Email as string.</param>
+ <param name="website">(Set|Get) The Website as string.</param>
+ <param name="enterprise">(Set|Get) The Enterprise as Enterprise.</param>
+ <param name="active">(Set|Get) The Active as bool.</param>
+ <param name="inscriptiondate">(Set|Get) The InscriptionDate as DateTime.</param>
+ <param name="company">(Set|Get) The Company as string.</param>
+ <param name="companyformat">(Set|Get) The CompanyFormat as Enterprise.Company_Type.</param>
+ <param name="note">(Set|Get) The Note as string.</param>
+ <param name="creationdate">(Set|Get) The CreationDate as DateTime.</param>
+ <param name="registryurl">(Set|Get) The RegistryUrl as string.</param>
+ <param name="uid">(Set|Get) The UID as string.</param>
+ <param name="ide">(Set|Get) The IDE as string.</param>
+ <param name="industry">(Set|Get) The Industry as string.</param>
+ <param name="aim">(Set|Get) The Aim as string.</param>
+ <param name="picture">(Set|Get) The Picture as byte.</param>
+ <param name="logo">(Set|Get) The Logo as byte.</param>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._ID">
+   <Summary> 
+   The discret variable _ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:55:20:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.ID">
+   <Summary> 
+   (Set|Get) The ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:55:20:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Forme">
+   <Summary> 
+   The discret variable _Forme as ClientType.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:22:16:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Forme">
+   <Summary> 
+   (Set|Get) The Forme as ClientType.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:22:16:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._FirstName">
+   <Summary> 
+   The discret variable _FirstName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:56:00:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.FirstName">
+   <Summary> 
+   (Set|Get) The FirstName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:56:00:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._LastName">
+   <Summary> 
+   The discret variable _LastName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:56:14:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.LastName">
+   <Summary> 
+   (Set|Get) The LastName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:56:14:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Greetings">
+   <Summary> 
+   The discret variable _Greetings as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:57:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Greetings">
+   <Summary> 
+   (Set|Get) The Greetings as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:57:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Company">
+   <Summary> 
+   The discret variable _Company as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:58:07:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Company">
+   <Summary> 
+   (Set|Get) The Company as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:58:07:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._CompanyFormat">
+   <Summary> 
+   The discret variable _CompanyFormat as Enterprise.Company_Type.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:57:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.CompanyFormat">
+   <Summary> 
+   (Set|Get) The CompanyFormat as Enterprise.Company_Type.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:57:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Enterprise">
+   <Summary> 
+   The discret variable _Enterprise as Enterprise.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:12:28:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Enterprise">
+   <Summary> 
+   (Set|Get) The Enterprise as Enterprise.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:12:28:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Active">
+   <Summary> 
+   The discret variable _Active as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:13:12:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Active">
+   <Summary> 
+   (Set|Get) The Active as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:13:12:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Note">
+   <Summary> 
+   The discret variable _Note as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 22:49:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Note">
+   <Summary> 
+   (Set|Get) The Note as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 22:49:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._InscriptionDate">
+   <Summary> 
+   The discret variable _InscriptionDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:09:44:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.InscriptionDate">
+   <Summary> 
+   (Set|Get) The InscriptionDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:09:44:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Name">
+   <Summary> 
+   (Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:28:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Street">
+   <Summary> 
+   The discret variable _Street as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:59:37:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Street">
+   <Summary> 
+   (Set|Get) The Street as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:59:37:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._StreetNumber">
+   <Summary> 
+   The discret variable _StreetNumber as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:59:58:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.StreetNumber">
+   <Summary> 
+   (Set|Get) The StreetNumber as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 23:59:58:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._PostalCode">
+   <Summary> 
+   The discret variable _PostalCode as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:00:10:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.PostalCode">
+   <Summary> 
+   (Set|Get) The PostalCode as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:00:10:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Town">
+   <Summary> 
+   The discret variable _Town as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:00:23:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Town">
+   <Summary> 
+   (Set|Get) The Town as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:00:23:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Country">
+   <Summary> 
+   The discret variable _Country as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:00:37:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Country">
+   <Summary> 
+   (Set|Get) The Country as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:00:37:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Root">
+   <Summary> 
+   The discret variable _Root as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:03:37:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Root">
+   <Summary> 
+   (Set|Get) The Root as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:03:37:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Dir_Invoices">
+   <Summary> 
+   The discret variable _Dir_Invoices as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:04:19:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Dir_Invoices">
+   <Summary> 
+   (Set|Get) The Dir_Invoices as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:04:19:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Landline">
+   <Summary> 
+   The discret variable _Landline as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:08:39:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Landline">
+   <Summary> 
+   (Set|Get) The Landline as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:08:39:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Phone">
+   <Summary> 
+   The discret variable _Phone as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:09:00:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Phone">
+   <Summary> 
+   (Set|Get) The Phone as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:09:00:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Email">
+   <Summary> 
+   The discret variable _Email as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:09:13:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Email">
+   <Summary> 
+   (Set|Get) The Email as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:09:13:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Website">
+   <Summary> 
+   The discret variable _Website as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:11:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Website">
+   <Summary> 
+   (Set|Get) The Website as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 00:11:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._CreationDate">
+   <Summary> 
+   The discret variable _CreationDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:12:17:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.CreationDate">
+   <Summary> 
+   (Set|Get) The CreationDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:12:17:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Age">
+   <Summary> 
+   (Get) The Age as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:13:14:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._RegistryUrl">
+   <Summary> 
+   The discret variable _RegistryUrl as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:18:27:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.RegistryUrl">
+   <Summary> 
+   (Set|Get) The RegistryUrl as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:18:27:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._UID">
+   <Summary> 
+   The discret variable _UID as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:18:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.UID">
+   <Summary> 
+   (Set|Get) The UID as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:18:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._IDE">
+   <Summary> 
+   The discret variable _IDE as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:19:18:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.IDE">
+   <Summary> 
+   (Set|Get) The IDE as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:19:18:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Industry">
+   <Summary> 
+   The discret variable _Industry as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:19:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Industry">
+   <Summary> 
+   (Set|Get) The Industry as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:19:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Aim">
+   <Summary> 
+   The discret variable _Aim as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:20:17:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Aim">
+   <Summary> 
+   (Set|Get) The Aim as String.
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:20:17:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Picture">
+   <Summary> 
+   The discret variable _Picture as Byte().
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:38:33:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Picture">
+   <Summary> 
+   (Set|Get) The Picture as Byte().
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:38:33:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Client._Logo">
+   <Summary> 
+   The discret variable _Logo as Byte().
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:38:53:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Client.Logo">
+   <Summary> 
+   (Set|Get) The Logo as Byte().
+   Author : MASTER\DSI
+   Created : 2021.08.24 23:38:53:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Client.Reset">
+   <Summary>
+   This method will reset the Client class.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 00:38:48:208 | Printed at : 2021.08.25 00:39:30:609
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Client.Open(System.String)">
+   <Summary>
+   This method will open the Client class object from a file.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 00:38:52:761 | Printed at : 2021.08.25 00:39:30:609
+   </Summary>
+ <param name="filepath">Please enter the full path of a file</param>
+</member>
+<member name="T:SmartStudio.SmartEnterprise.Enterprise">
+   <Summary> 
+   Represent your main enterprise.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:09:04:391 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="T:SmartStudio.SmartEnterprise.Enterprise.Company_Type">
+   <Summary>
+   The company Type
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.23 13:33:52:000 | Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Individual_Business">
+   <Summary>
+   The member Individual_Business Position at : 0
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Partnership">
+   <Summary>
+   The member Partnership Position at : 1
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Anonimous_Society">
+   <Summary>
+   The member Anonimous_Society Position at : 2
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Limited_Liability_Company">
+   <Summary>
+   The member Limited_Liability_Company Position at : 3
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Cooperative_Company">
+   <Summary>
+   The member Cooperative_Company Position at : 4
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Association">
+   <Summary>
+   The member Association Position at : 5
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Foundation">
+   <Summary>
+   The member Foundation Position at : 6
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Institute_of_Public_Law">
+   <Summary>
+   The member Institute_of_Public_Law Position at : 7
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Domesitc_Branch">
+   <Summary>
+   The member Domesitc_Branch Position at : 8
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Foreign_Branch">
+   <Summary>
+   The member Foreign_Branch Position at : 9
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Partnership_Limited_by_Shares">
+   <Summary>
+   The member Partnership_Limited_by_Shares Position at : 10
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Legal_Special_Nature">
+   <Summary>
+   The member Legal_Special_Nature Position at : 11
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Fixed_Capital_Investment_Company">
+   <Summary>
+   The member Fixed_Capital_Investment_Company Position at : 12
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Variable_Captial_Investment_Company">
+   <Summary>
+   The member Variable_Captial_Investment_Company Position at : 13
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Limited_Partnership_for_Collective_investments">
+   <Summary>
+   The member Limited_Partnership_for_Collective_investments Position at : 14
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Company_Type.Non_Commerical_Power_of_Attorney">
+   <Summary>
+   The member Non_Commerical_Power_of_Attorney Position at : 15
+   Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.Clone">
+   <Summary>
+   This method will clone the Enterprise class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.23 23:50:22:601 | Printed at : 2021.08.25 12:07:06:032
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.Save(System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will clone the Enterprise class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.23 13:57:09:502 | Printed at : 2021.08.23 20:34:42:290
+   </Summary>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.Serialize(SmartStudio.SmartEnterprise.Enterprise,System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will save the Enterprise class object in a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.23 13:57:04:777 | Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+ <param name="obj">Please enter a valid Enterprise.</param>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.Deserialize(System.String)">
+   <Summary>
+   This method will open the Enterprise class object from a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.23 13:57:07:092 | Printed at : 2021.08.23 20:34:42:200
+   </Summary>
+ <param name="target">Please enter the full path of a file</param>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.GetClients">
+   <Summary>
+   The method Function 1 that will return a String
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:08:55:000 | Printed at : 2021.08.25 12:24:16:575
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.#ctor(System.String,SmartStudio.SmartEnterprise.Enterprise.Company_Type,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+   <Summary>
+   An empty loader class
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.24 01:01:01:127 | Printed at : 2021.08.24 01:01:01:736
+   </Summary>
+ <param name="name">(Set|Get) The Name as string.</param>
+ <param name="format">(Set|Get) The Format as Company_Type.</param>
+ <param name="creationdate">(Set|Get) The CreationDate as DateTime.</param>
+ <param name="uid">(Set|Get) The UID as string.</param>
+ <param name="ide">(Set|Get) The IDE as string.</param>
+ <param name="aim">(Set|Get) The Aim as string.</param>
+ <param name="logofile">(Set|Get) The LogoFile as string.</param>
+ <param name="dir_client">(Set|Get) The Dir_Client as string.</param>
+ <param name="dir_department">(Set|Get) The Dir_Department as string.</param>
+ <param name="dir_employee">(Set|Get) The Dir_Employee as string.</param>
+ <param name="dir_accountancy">(Set|Get) The Dir_Accountancy as string.</param>
+ <param name="url">(Set|Get) The URL as string.</param>
+ <param name="street">(Set|Get) The Street as string.</param>
+ <param name="streetnumber">(Set|Get) The StreetNumber as string.</param>
+ <param name="postalcode">(Set|Get) The PostalCode as string.</param>
+ <param name="town">(Set|Get) The Town as string.</param>
+ <param name="country">(Set|Get) The Country as string.</param>
+ <param name="landline">(Set|Get) The Landline as string.</param>
+ <param name="phone">(Set|Get) The Phone as string.</param>
+ <param name="email">(Set|Get) The Email as string.</param>
+ <param name="website">(Set|Get) The Website as string.</param>
+ <param name="bankname">(Set|Get) The BankName as string.</param>
+ <param name="iban">(Set|Get) The IBAN as string.</param>
+ <param name="qriban">(Set|Get) The QRIBAN as string.</param>
+ <param name="swiftcode">(Set|Get) The SwiftCode as string.</param>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:11:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:11:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Format">
+   <Summary> 
+   The discret variable _Format as Company_Type.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:38:22:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Format">
+   <Summary> 
+   (Set|Get) The Format as Company_Type.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:38:22:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._CreationDate">
+   <Summary> 
+   The discret variable _CreationDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:39:19:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.CreationDate">
+   <Summary> 
+   (Set|Get) The CreationDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:39:19:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._UID">
+   <Summary> 
+   The discret variable _UID as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:39:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.UID">
+   <Summary> 
+   (Set|Get) The UID as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:39:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._IDE">
+   <Summary> 
+   The discret variable _IDE as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:41:03:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.IDE">
+   <Summary> 
+   (Set|Get) The IDE as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:41:03:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Aim">
+   <Summary> 
+   The discret variable _Aim as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:41:29:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Aim">
+   <Summary> 
+   (Set|Get) The Aim as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:41:29:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._URL">
+   <Summary> 
+   The discret variable _URL as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:54:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.URL">
+   <Summary> 
+   (Set|Get) The URL as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:54:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Logo">
+   <Summary> 
+   The discret variable _Logo as System.Drawing.Image.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:42:13:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Logo">
+   <Summary> 
+   (Set|Get) The Logo as System.Drawing.Image.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:42:13:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._LogoFile">
+   <Summary> 
+   The discret variable _LogoFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:43:02:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.LogoFile">
+   <Summary> 
+   (Set|Get) The LogoFile as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:43:02:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Root">
+   <Summary> 
+   (Get) The Root as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:47:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Dir_Client">
+   <Summary> 
+   The discret variable _Dir_Client as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:50:01:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Dir_Client">
+   <Summary> 
+   (Set|Get) The Dir_Client as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:50:01:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Dir_Department">
+   <Summary> 
+   The discret variable _Dir_Department as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:50:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Dir_Department">
+   <Summary> 
+   (Set|Get) The Dir_Department as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:50:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Dir_Employee">
+   <Summary> 
+   The discret variable _Dir_Employee as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:50:51:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Dir_Employee">
+   <Summary> 
+   (Set|Get) The Dir_Employee as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:50:51:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Dir_Accountancy">
+   <Summary> 
+   The discret variable _Dir_Accountancy as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:51:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Dir_Accountancy">
+   <Summary> 
+   (Set|Get) The Dir_Accountancy as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:51:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Dir_Invoices">
+   <Summary> 
+   The discret variable _Dir_Invoices as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:51:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Dir_Invoices">
+   <Summary> 
+   (Set|Get) The Dir_Invoices as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:51:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Dir_Assets">
+   <Summary> 
+   The discret variable _Dir_Assets as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:52:01:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Dir_Assets">
+   <Summary> 
+   (Set|Get) The Dir_Assets as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:52:01:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Dir_Liabilities">
+   <Summary> 
+   The discret variable _Dir_Liabilities as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:52:26:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Dir_Liabilities">
+   <Summary> 
+   (Set|Get) The Dir_Liabilities as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:52:26:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Dir_Stock">
+   <Summary> 
+   The discret variable _Dir_Stock as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:53:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Dir_Stock">
+   <Summary> 
+   (Set|Get) The Dir_Stock as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 13:53:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Street">
+   <Summary> 
+   The discret variable _Street as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:31:44:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Street">
+   <Summary> 
+   (Set|Get) The Street as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:31:44:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._StreetNumber">
+   <Summary> 
+   The discret variable _StreetNumber as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:33:13:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.StreetNumber">
+   <Summary> 
+   (Set|Get) The StreetNumber as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:33:13:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._PostalCode">
+   <Summary> 
+   The discret variable _PostalCode as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:33:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.PostalCode">
+   <Summary> 
+   (Set|Get) The PostalCode as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:33:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Town">
+   <Summary> 
+   The discret variable _Town as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:34:02:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Town">
+   <Summary> 
+   (Set|Get) The Town as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:34:02:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Country">
+   <Summary> 
+   The discret variable _Country as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:34:23:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Country">
+   <Summary> 
+   (Set|Get) The Country as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 20:34:23:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Landline">
+   <Summary> 
+   The discret variable _Landline as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:11:38:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Landline">
+   <Summary> 
+   (Set|Get) The Landline as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:11:38:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Phone">
+   <Summary> 
+   The discret variable _Phone as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:12:17:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Phone">
+   <Summary> 
+   (Set|Get) The Phone as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:12:17:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Email">
+   <Summary> 
+   The discret variable _Email as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:12:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Email">
+   <Summary> 
+   (Set|Get) The Email as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:12:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Website">
+   <Summary> 
+   The discret variable _Website as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:12:47:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Website">
+   <Summary> 
+   (Set|Get) The Website as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:12:47:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._BankName">
+   <Summary> 
+   The discret variable _BankName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:14:50:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.BankName">
+   <Summary> 
+   (Set|Get) The BankName as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:14:50:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._IBAN">
+   <Summary> 
+   The discret variable _IBAN as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:15:18:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.IBAN">
+   <Summary> 
+   (Set|Get) The IBAN as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:15:18:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._QRIBAN">
+   <Summary> 
+   The discret variable _QRIBAN as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:15:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.QRIBAN">
+   <Summary> 
+   (Set|Get) The QRIBAN as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:15:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._SwiftCode">
+   <Summary> 
+   The discret variable _SwiftCode as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:16:01:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.SwiftCode">
+   <Summary> 
+   (Set|Get) The SwiftCode as String.
+   Author : MASTER\DSI
+   Created : 2021.08.23 22:16:01:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise._Clients">
+   <Summary> 
+   The discret variable _Clients as List(Of Client).
+   Author : MASTER\DSI
+   Created : 2021.08.24 22:25:39:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Enterprise.Clients">
+   <Summary> 
+   (Set|Get) The Clients as List(Of Client).
+   Author : MASTER\DSI
+   Created : 2021.08.24 22:25:39:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.Save">
+   <Summary>
+   Will save automatically the Enterprise.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:09:54:000 | Printed at : 2021.08.25 12:11:02:405
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.Create_Dir">
+   <Summary>
+   This method will create directly all the directories.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:11:43:000 | Printed at : 2021.08.25 12:19:20:887
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.Enterprise.Open(System.String)">
+   <Summary>
+   This method will open the Enterprise class object from a file.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.23 23:50:19:218 | Printed at : 2021.08.24 01:31:12:411
+   </Summary>
+ <param name="filepath">Please enter the full path of a file</param>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Enterprise.Dir">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.23 13:43:40:000 | Printed at : 2021.08.23 20:34:42:558
+   </Summary>
+</member>
+<member name="T:SmartStudio.SmartEnterprise.TimeEntry">
+   <Summary> 
+   
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:29:35:694 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartStudio.SmartEnterprise.TimeEntry.Serialize(SmartStudio.SmartEnterprise.TimeEntry,System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will save the TimeEntry class object in a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:45:06:607 | Printed at : 2021.08.25 12:45:49:959
+   </Summary>
+ <param name="obj">Please enter a valid TimeEntry.</param>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.TimeEntry.Deserialize(System.String)">
+   <Summary>
+   This method will open the TimeEntry class object from a file.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:45:07:708 | Printed at : 2021.08.25 12:45:49:960
+   </Summary>
+ <param name="target">Please enter the full path of a file</param>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.TimeEntry.Clone">
+   <Summary>
+   This method will clone the TimeEntry class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:45:08:560 | Printed at : 2021.08.25 12:45:50:034
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.TimeEntry.Save(System.String,System.String,System.String,System.Boolean)">
+   <Summary>
+   This method will clone the TimeEntry class object into another object.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:45:10:283 | Printed at : 2021.08.25 12:45:50:115
+   </Summary>
+ <param name="path">Please enter the full path of a directory</param>
+ <param name="filename">Please enter only the name of the file without extensions.</param>
+ <param name="extension">Please enter the extension name of without the (.).</param>
+ <param name="overwrite">Provided that we find a file already with the same name do you want to overwrite it?</param>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._ID">
+   <Summary> 
+   The discret variable _ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:32:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.ID">
+   <Summary> 
+   (Set|Get) The ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:32:36:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Enterprise">
+   <Summary> 
+   The discret variable _Enterprise as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:32:47:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Enterprise">
+   <Summary> 
+   (Set|Get) The Enterprise as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:32:47:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Client">
+   <Summary> 
+   The discret variable _Client as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:33:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Client">
+   <Summary> 
+   (Set|Get) The Client as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:33:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Date">
+   <Summary> 
+   The discret variable _Date as Date.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:33:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Date">
+   <Summary> 
+   (Set|Get) The Date as Date.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:33:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Time">
+   <Summary> 
+   The discret variable _Time as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:33:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Time">
+   <Summary> 
+   (Set|Get) The Time as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:33:31:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Hours">
+   <Summary> 
+   The discret variable _Hours as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:33:58:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Hh">
+   <Summary> 
+   (Set|Get) The Hh as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:33:58:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Minutes">
+   <Summary> 
+   The discret variable _Minutes as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:34:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Mn">
+   <Summary> 
+   (Set|Get) The Mn as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:34:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Seconds">
+   <Summary> 
+   The discret variable _Seconds as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:34:21:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.SS">
+   <Summary> 
+   (Set|Get) The SS as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:34:21:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Milliseconds">
+   <Summary> 
+   The discret variable _Milliseconds as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:34:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Ms">
+   <Summary> 
+   (Set|Get) The Ms as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:34:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Billable">
+   <Summary> 
+   The discret variable _Billable as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:36:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Billable">
+   <Summary> 
+   (Set|Get) The Billable as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:36:34:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._UnitPriceperHour">
+   <Summary> 
+   The discret variable _UnitPriceperHour as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:39:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.UnitPriceperHour">
+   <Summary> 
+   (Set|Get) The UnitPriceperHour as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:39:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Shift">
+   <Summary> 
+   The discret variable _Shift as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:39:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Shift">
+   <Summary> 
+   (Set|Get) The Shift as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:39:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._ShiftValue">
+   <Summary> 
+   The discret variable _ShiftValue as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:39:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.ShiftValue">
+   <Summary> 
+   (Set|Get) The ShiftValue as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:39:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Total">
+   <Summary> 
+   (Get) The Total as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:39:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Prestation">
+   <Summary> 
+   The discret variable _Prestation as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:44:12:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Prestation">
+   <Summary> 
+   (Set|Get) The Prestation as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:44:12:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.TimeEntry._Description">
+   <Summary> 
+   The discret variable _Description as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:44:35:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.TimeEntry.Description">
+   <Summary> 
+   (Set|Get) The Description as String.
+   Author : MASTER\DSI
+   Created : 2021.08.25 12:44:35:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="M:SmartStudio.SmartEnterprise.TimeEntry.Reset">
+   <Summary>
+   This method will reset the TimeEntry class.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:45:09:725 | Printed at : 2021.08.25 12:45:50:194
+   </Summary>
+</member>
+<member name="M:SmartStudio.SmartEnterprise.TimeEntry.Open(System.String)">
+   <Summary>
+   This method will open the TimeEntry class object from a file.
+   Author : MASTER\MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.25 12:45:12:480 | Printed at : 2021.08.25 12:45:50:195
+   </Summary>
+ <param name="filepath">Please enter the full path of a file</param>
+</member>
+<member name="T:SmartStudio.SmartEnterprise.Mandat">
+   <Summary> 
+   
+   Author : MASTER\DSI
+   Created : 2021.08.29 15:48:27:888 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.PriceperKm">
+System.Collections.Generic.List`1[System.String]
+</member>
+<member name="T:SmartStudio.SmartEnterprise.Mandat.MandatType">
+   <Summary>
+   The different types of contract.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.29 15:59:51:000 | Printed at : 2021.08.29 17:11:30:799
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Assistance_Local">
+   <Summary>
+   On site local assistance. For server, pc or tablette.
+   Printed at : 2021.08.29 17:11:30:799
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Assistance_Remote">
+   <Summary>
+   Remote connection assistance enables you to have a quick response time for any problem but this will impact the cost of the service because we will need to implement an account with Splashtop.
+   Printed at : 2021.08.29 17:11:30:799
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Web_Security">
+   <Summary>
+   Web security is the mandat for auditing your website's vulnerability.
+   Printed at : 2021.08.29 17:11:30:799
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Web_Maintenance">
+   <Summary>
+   This mandat provides an ongoing updates of your website to be sure to follow and implement the latest technologies available on your website.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Web_Backup">
+   <Summary>
+   This mandat ensures to make a copy of your website and its database in case anything happens.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Development_Local_Program">
+   <Summary>
+   Development of a local program.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Development_Web_Application">
+   <Summary>
+   Development of a web application.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Development_Mobile_Application">
+   <Summary>
+   Development of a mobile application.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatType.Hosting">
+   <Summary>
+   Webhosting contract minimum duration 12 months.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="T:SmartStudio.SmartEnterprise.Mandat.MandatStatus">
+   <Summary>
+   Determine the mandat situation.
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.29 16:08:51:000 | Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatStatus.Underconstruction">
+   <Summary>
+   The mandat has not been finalised.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatStatus.SentToClient">
+   <Summary>
+   The mandat has been sent to the client.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatStatus.Approved">
+   <Summary>
+   The mandat has been approved by both parites.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatStatus.Rejected">
+   <Summary>
+   The mandat has been rejected by one of the parties.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatStatus.Finalised">
+   <Summary>
+   The mandat is now finished.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.MandatStatus.Updated">
+   <Summary>
+   The mandat terms have been updated.
+   Printed at : 2021.08.29 17:11:30:800
+   </Summary>
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.29 15:52:51:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.08.29 15:52:51:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Enterprise">
+   <Summary> 
+   The discret variable _Enterprise as Enterprise.
+   Author : MASTER\DSI
+   Created : 2021.08.29 15:55:07:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Enterprise">
+   <Summary> 
+   (Set|Get) The Enterprise as Enterprise.
+   Author : MASTER\DSI
+   Created : 2021.08.29 15:55:07:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Client">
+   <Summary> 
+   The discret variable _Client as Client.
+   Author : MASTER\DSI
+   Created : 2021.08.29 15:55:21:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Client">
+   <Summary> 
+   (Set|Get) The Client as Client.
+   Author : MASTER\DSI
+   Created : 2021.08.29 15:55:21:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._ContractType">
+   <Summary> 
+   The discret variable _ContractType as MandatType.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:07:51:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.ContractType">
+   <Summary> 
+   (Set|Get) The ContractType as MandatType.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:07:51:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._SignedDate">
+   <Summary> 
+   The discret variable _SignedDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:14:44:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.SignedDate">
+   <Summary> 
+   (Set|Get) The SignedDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:14:44:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Duration">
+   <Summary> 
+   The discret variable _Duration as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:16:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Duration">
+   <Summary> 
+   (Set|Get) The Duration as Integer.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:16:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._FinalDate">
+   <Summary> 
+   The discret variable _FinalDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:17:52:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.FinalDate">
+   <Summary> 
+   (Set|Get) The FinalDate as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:17:52:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._DeadLine">
+   <Summary> 
+   The discret variable _DeadLine as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:18:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.DeadLine">
+   <Summary> 
+   (Set|Get) The DeadLine as DateTime.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:18:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Objective">
+   <Summary> 
+   The discret variable _Objective as String.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:21:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Objective">
+   <Summary> 
+   (Set|Get) The Objective as String.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:21:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Mandat_ContractFilePath">
+   <Summary> 
+   The discret variable _Mandat_ContractFilePath as String.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:25:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Mandat_ContractFilePath">
+   <Summary> 
+   (Set|Get) The Mandat_ContractFilePath as String.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:25:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._PricePerHour">
+   <Summary> 
+   The discret variable _PricePerHour as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:36:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.PricePerHour">
+   <Summary> 
+   (Set|Get) The PricePerHour as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:36:32:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._TransportDistance">
+   <Summary> 
+   The discret variable _TransportDistance as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:40:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.TransportDistance">
+   <Summary> 
+   (Set|Get) The TransportDistance as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:40:43:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._UseTransportCost">
+   <Summary> 
+   The discret variable _UseTransportCost as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:44:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.UseTransportCost">
+   <Summary> 
+   (Set|Get) The UseTransportCost as Boolean.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:44:04:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Transport_Cost">
+   <Summary> 
+   The discret variable _Transport_Cost as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:45:10:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Transport_Cost">
+   <Summary> 
+   (Set|Get) The Transport_Cost as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:45:10:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Import">
+   <Summary> 
+   The discret variable _Unit_Import as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:46:48:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Import">
+   <Summary> 
+   (Set|Get) The Unit_Import as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:46:48:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Class">
+   <Summary> 
+   The discret variable _Unit_Class as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:53:49:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Class">
+   <Summary> 
+   (Set|Get) The Unit_Class as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:53:49:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Constante">
+   <Summary> 
+   The discret variable _Unit_Constante as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:54:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Constante">
+   <Summary> 
+   (Set|Get) The Unit_Constante as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:54:05:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Declare">
+   <Summary> 
+   The discret variable _Unit_Declare as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:54:24:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Declare">
+   <Summary> 
+   (Set|Get) The Unit_Declare as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:54:24:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Delegate">
+   <Summary> 
+   The discret variable _Unit_Delegate as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:54:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Delegate">
+   <Summary> 
+   (Set|Get) The Unit_Delegate as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:54:46:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Enumeration">
+   <Summary> 
+   The discret variable _Unit_Enumeration as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:55:06:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Enumeration">
+   <Summary> 
+   (Set|Get) The Unit_Enumeration as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:55:06:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Event">
+   <Summary> 
+   The discret variable _Unit_Event as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:55:33:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Event">
+   <Summary> 
+   (Set|Get) The Unit_Event as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:55:33:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Function">
+   <Summary> 
+   The discret variable _Unit_Function as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:55:58:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Function">
+   <Summary> 
+   (Set|Get) The Unit_Function as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:55:58:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Loader">
+   <Summary> 
+   The discret variable _Unit_Loader as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:56:22:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Loader">
+   <Summary> 
+   (Set|Get) The Unit_Loader as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:56:22:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Module">
+   <Summary> 
+   The discret variable _Unit_Module as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:56:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Module">
+   <Summary> 
+   (Set|Get) The Unit_Module as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:56:55:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Property">
+   <Summary> 
+   The discret variable _Unit_Property as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:57:13:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Property">
+   <Summary> 
+   (Set|Get) The Unit_Property as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:57:13:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_RaiseEvent">
+   <Summary> 
+   The discret variable _Unit_RaiseEvent as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:57:33:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_RaiseEvent">
+   <Summary> 
+   (Set|Get) The Unit_RaiseEvent as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:57:33:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Structure">
+   <Summary> 
+   The discret variable _Unit_Structure as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:57:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Structure">
+   <Summary> 
+   (Set|Get) The Unit_Structure as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:57:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Sub">
+   <Summary> 
+   The discret variable _Unit_Sub as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:58:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Sub">
+   <Summary> 
+   (Set|Get) The Unit_Sub as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:58:11:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Variable">
+   <Summary> 
+   The discret variable _Unit_Variable as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:58:27:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Variable">
+   <Summary> 
+   (Set|Get) The Unit_Variable as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:58:27:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Member">
+   <Summary> 
+   The discret variable _Unit_Member as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:58:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Member">
+   <Summary> 
+   (Set|Get) The Unit_Member as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:58:56:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Unit_Parameter">
+   <Summary> 
+   The discret variable _Unit_Parameter as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:59:12:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Unit_Parameter">
+   <Summary> 
+   (Set|Get) The Unit_Parameter as Double.
+   Author : MASTER\DSI
+   Created : 2021.08.29 16:59:12:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat._Projects">
+   <Summary> 
+   The discret variable _Projects as List(Of Project).
+   Author : MASTER\DSI
+   Created : 2021.08.29 17:10:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartStudio.SmartEnterprise.Mandat.Projects">
+   <Summary> 
+   (Set|Get) The Projects as List(Of Project).
+   Author : MASTER\DSI
+   Created : 2021.08.29 17:10:08:000 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartStudio.SmartEnterprise.Mandat.Dir">
+   <Summary>
+   The method Variable1 that will return a string
+   Author : MASTER\DSI | Status : UnderConstruction
+   Designed : 2021.08.29 17:10:52:000 | Printed at : 2021.08.29 17:11:31:466
+   </Summary>
+</member>
+</members>
+</doc>

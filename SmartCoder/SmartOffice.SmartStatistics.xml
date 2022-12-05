@@ -1,0 +1,845 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SmartOffice.SmartStatistics
+</name>
+</assembly>
+<members>
+<member name="T:SmartOffice.SmartStatistics.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartStatistics.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartStatistics.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._ID">
+   <Summary> 
+   The discret variable _ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.12 11:14:10:221 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.ID">
+   <Summary> 
+   (Set|Get) The ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.12 11:14:10:221 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.07.12 11:14:40:589 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.07.12 11:14:40:589 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Curency">
+   <Summary> 
+   The discret variable _Curency as CurrencyCode.
+   Author : MASTER\DSI
+   Created : 2021.07.12 14:40:18:146 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Curency">
+   <Summary> 
+   (Set|Get) The Curency as Currency.
+   Author : MASTER\DSI
+   Created : 2021.07.12 14:40:18:146 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Tel">
+   <Summary> 
+   The discret variable _Tel as String.
+   Author : MASTER\DSI
+   Created : 2021.07.12 17:19:18:713 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Tel">
+   <Summary> 
+   (Set|Get) The Tel as String.
+   Author : MASTER\DSI
+   Created : 2021.07.12 17:19:18:713 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Capital">
+   <Summary> 
+   The discret variable _Capital as String.
+   Author : MASTER\DSI
+   Created : 2021.07.12 18:04:53:113 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Capital">
+   <Summary> 
+   (Set|Get) The Capital as String.
+   Author : MASTER\DSI
+   Created : 2021.07.12 18:04:53:113 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Region">
+   <Summary> 
+   The discret variable _Region as RegionType.
+   Author : MASTER\DSI
+   Created : 2021.07.12 19:22:40:530 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Region">
+   <Summary> 
+   (Set|Get) The Region as RegionType.
+   Author : MASTER\DSI
+   Created : 2021.07.12 19:22:40:530 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_1970">
+   <Summary> 
+   The discret variable _Population_1970 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:12:29:876 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_1970">
+   <Summary> 
+   (Set|Get) The Population_1970 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:12:29:876 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_1980">
+   <Summary> 
+   The discret variable _Population_1980 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:12:49:241 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_1980">
+   <Summary> 
+   (Set|Get) The Population_1980 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:12:49:241 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_1990">
+   <Summary> 
+   The discret variable _Population_1990 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:09:316 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_1990">
+   <Summary> 
+   (Set|Get) The Population_1990 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:09:316 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_2000">
+   <Summary> 
+   The discret variable _Population_2000 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:30:608 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_2000">
+   <Summary> 
+   (Set|Get) The Population_2000 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:30:608 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_2010">
+   <Summary> 
+   The discret variable _Population_2010 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:58:115 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_2010">
+   <Summary> 
+   (Set|Get) The Population_2010 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:58:115 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_2015">
+   <Summary> 
+   The discret variable _Population_2015 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:14:44:993 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_2015">
+   <Summary> 
+   (Set|Get) The Population_2015 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:14:44:993 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_2019">
+   <Summary> 
+   The discret variable _Population_2019 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:15:41:663 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_2019">
+   <Summary> 
+   (Set|Get) The Population_2019 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:15:41:663 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_2020">
+   <Summary> 
+   The discret variable _Population_2020 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:15:57:932 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_2020">
+   <Summary> 
+   (Set|Get) The Population_2020 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:15:57:932 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_2021">
+   <Summary> 
+   The discret variable _Population_2021 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:16:19:219 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_2021">
+   <Summary> 
+   (Set|Get) The Population_2021 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:16:19:219 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_2030">
+   <Summary> 
+   The discret variable _Population_2030 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:16:47:290 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_2030">
+   <Summary> 
+   (Set|Get) The Population_2030 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:16:47:290 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Population_2050">
+   <Summary> 
+   The discret variable _Population_2050 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:17:05:792 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Population_2050">
+   <Summary> 
+   (Set|Get) The Population_2050 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:17:05:792 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Area">
+   <Summary> 
+   The discret variable _Area as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:28:29:876 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Area">
+   <Summary> 
+   (Set|Get) The Area as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:28:29:876 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._GDP">
+   <Summary> 
+   The discret variable _GDP as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:13:528 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.GDP">
+   <Summary> 
+   (Set|Get) The GDP as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:13:528 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Literacy">
+   <Summary> 
+   The discret variable _Literacy as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:36:105 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Literacy">
+   <Summary> 
+   (Set|Get) The Literacy as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:36:105 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Phones">
+   <Summary> 
+   The discret variable _Phones as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:55:932 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Phones">
+   <Summary> 
+   (Set|Get) The Phones as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:55:932 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Arable">
+   <Summary> 
+   The discret variable _Arable as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:55:38:774 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Arable">
+   <Summary> 
+   (Set|Get) The Arable as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:55:38:774 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Crops">
+   <Summary> 
+   The discret variable _Crops as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:01:759 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Crops">
+   <Summary> 
+   (Set|Get) The Crops as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:01:759 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Others">
+   <Summary> 
+   The discret variable _Others as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:01:759 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Others">
+   <Summary> 
+   (Set|Get) The Others as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:01:759 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Season">
+   <Summary> 
+   The discret variable _Season as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:28:606 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Season">
+   <Summary> 
+   (Set|Get) The Season as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:28:606 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Agriculture">
+   <Summary> 
+   The discret variable _Agriculture as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:04:22:568 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Agriculture">
+   <Summary> 
+   (Set|Get) The Agriculture as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:04:22:568 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Industry">
+   <Summary> 
+   The discret variable _Industry as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:04:49:956 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Industry">
+   <Summary> 
+   (Set|Get) The Industry as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:04:49:956 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._Services">
+   <Summary> 
+   The discret variable _Services as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:05:20:887 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Services">
+   <Summary> 
+   (Set|Get) The Services as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:05:20:887 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._BirthRate">
+   <Summary> 
+   The discret variable _BirthRate as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:58:10:965 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.BirthRate">
+   <Summary> 
+   (Set|Get) The BirthRate as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:58:10:965 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country._DeathRate">
+   <Summary> 
+   The discret variable _DeathRate as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:58:31:037 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.DeathRate">
+   <Summary> 
+   (Set|Get) The DeathRate as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:58:31:037 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Sustanibility">
+   <Summary> 
+   (Get) The Sustanibility as SustanibilityLevel.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:59:50:512 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_1970">
+   <Summary> 
+   The discret variable _Population_1970 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:12:29:876 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_1970">
+   <Summary> 
+   (Set|Get) The Population_1970 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:12:29:876 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_1980">
+   <Summary> 
+   The discret variable _Population_1980 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:12:49:241 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_1980">
+   <Summary> 
+   (Set|Get) The Population_1980 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:12:49:241 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_1990">
+   <Summary> 
+   The discret variable _Population_1990 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:09:316 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_1990">
+   <Summary> 
+   (Set|Get) The Population_1990 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:09:316 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_2000">
+   <Summary> 
+   The discret variable _Population_2000 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:30:608 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_2000">
+   <Summary> 
+   (Set|Get) The Population_2000 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:30:608 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_2010">
+   <Summary> 
+   The discret variable _Population_2010 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:58:115 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_2010">
+   <Summary> 
+   (Set|Get) The Population_2010 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:13:58:115 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_2015">
+   <Summary> 
+   The discret variable _Population_2015 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:14:44:993 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_2015">
+   <Summary> 
+   (Set|Get) The Population_2015 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:14:44:993 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_2019">
+   <Summary> 
+   The discret variable _Population_2019 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:15:41:663 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_2019">
+   <Summary> 
+   (Set|Get) The Population_2019 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:15:41:663 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_2020">
+   <Summary> 
+   The discret variable _Population_2020 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:15:57:932 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_2020">
+   <Summary> 
+   (Set|Get) The Population_2020 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:15:57:932 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_2021">
+   <Summary> 
+   The discret variable _Population_2021 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:16:19:219 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_2021">
+   <Summary> 
+   (Set|Get) The Population_2021 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:16:19:219 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_2030">
+   <Summary> 
+   The discret variable _Population_2030 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:16:47:290 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_2030">
+   <Summary> 
+   (Set|Get) The Population_2030 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:16:47:290 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Population_2050">
+   <Summary> 
+   The discret variable _Population_2050 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:17:05:792 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Population_2050">
+   <Summary> 
+   (Set|Get) The Population_2050 as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:17:05:792 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Area">
+   <Summary> 
+   The discret variable _Area as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:28:29:876 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Area">
+   <Summary> 
+   (Set|Get) The Area as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:28:29:876 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._GDP">
+   <Summary> 
+   The discret variable _GDP as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:13:528 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.GDP">
+   <Summary> 
+   (Set|Get) The GDP as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:13:528 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Literacy">
+   <Summary> 
+   The discret variable _Literacy as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:36:105 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Literacy">
+   <Summary> 
+   (Set|Get) The Literacy as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:36:105 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Phones">
+   <Summary> 
+   The discret variable _Phones as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:55:932 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Phones">
+   <Summary> 
+   (Set|Get) The Phones as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:54:55:932 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Arable">
+   <Summary> 
+   The discret variable _Arable as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:55:38:774 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Arable">
+   <Summary> 
+   (Set|Get) The Arable as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:55:38:774 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Crops">
+   <Summary> 
+   The discret variable _Crops as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:01:759 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Crops">
+   <Summary> 
+   (Set|Get) The Crops as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:01:759 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Others">
+   <Summary> 
+   The discret variable _Others as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:01:759 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Others">
+   <Summary> 
+   (Set|Get) The Others as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:01:759 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Season">
+   <Summary> 
+   The discret variable _Season as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:28:606 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Season">
+   <Summary> 
+   (Set|Get) The Season as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:56:28:606 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Agriculture">
+   <Summary> 
+   The discret variable _Agriculture as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:04:22:568 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Agriculture">
+   <Summary> 
+   (Set|Get) The Agriculture as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:04:22:568 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Industry">
+   <Summary> 
+   The discret variable _Industry as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:04:49:956 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Industry">
+   <Summary> 
+   (Set|Get) The Industry as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:04:49:956 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._Services">
+   <Summary> 
+   The discret variable _Services as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:05:20:887 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.Services">
+   <Summary> 
+   (Set|Get) The Services as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 13:05:20:887 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._BirthRate">
+   <Summary> 
+   The discret variable _BirthRate as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:58:10:965 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.BirthRate">
+   <Summary> 
+   (Set|Get) The BirthRate as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:58:10:965 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Country.Averager._DeathRate">
+   <Summary> 
+   The discret variable _DeathRate as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:58:31:037 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Country.Averager.DeathRate">
+   <Summary> 
+   (Set|Get) The DeathRate as Double.
+   Author : MASTER\DSI
+   Created : 2021.07.12 12:58:31:037 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Currency._ID">
+   <Summary> 
+   The discret variable _ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.18 16:15:30:922 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Currency.ID">
+   <Summary> 
+   (Set|Get) The ID as Integer.
+   Author : MASTER\DSI
+   Created : 2021.07.18 16:15:30:922 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Currency._Code">
+   <Summary> 
+   The discret variable _Code as String.
+   Author : MASTER\DSI
+   Created : 2021.07.18 16:16:56:157 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Currency.Code">
+   <Summary> 
+   (Set|Get) The Code as String.
+   Author : MASTER\DSI
+   Created : 2021.07.18 16:16:56:157 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Currency._Name">
+   <Summary> 
+   The discret variable _Name as String.
+   Author : MASTER\DSI
+   Created : 2021.07.18 16:17:26:954 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Currency.Name">
+   <Summary> 
+   (Set|Get) The Name as String.
+   Author : MASTER\DSI
+   Created : 2021.07.18 16:17:26:954 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="F:SmartOffice.SmartStatistics.Currency._Countries">
+   <Summary> 
+   The discret variable _Countries as List(Of Country).
+   Author : MASTER\DSI
+   Created : 2021.07.18 16:18:45:059 | Status : UnderConstruction
+   </Summary> 
+</member>
+<member name="P:SmartOffice.SmartStatistics.Currency.Countries">
+   <Summary> 
+   (Set|Get) The Countries as List(Of Country).
+   Author : MASTER\DSI
+   Created : 2021.07.18 16:18:45:059 | Status : UnderConstruction
+   </Summary> 
+</member>
+</members>
+</doc>

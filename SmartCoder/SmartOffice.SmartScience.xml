@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SmartOffice.SmartScience
+</name>
+</assembly>
+<members>
+<member name="T:SmartOffice.SmartScience.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartScience.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartOffice.SmartScience.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Math.UnitConverter">
+ <summary>
+ This Class enables to convert units
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Area">
+ <summary>
+ This tools enables to convert area
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Data_Transfert_Rate">
+ <summary>
+ This tools enables to convert Data Transfert Rate
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Digital_Storage">
+ <summary>
+ This tools enables to convert Digital Storage
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Energy">
+ <summary>
+ This tools enables to convert Energy
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Frequency">
+ <summary>
+ This tools enables to convert Frequency
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Fuel_Economy">
+ <summary>
+ This tools enables to convert Fuel_Economy
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Length">
+ <summary>
+ This tools enables to convert Length
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Mass">
+ <summary>
+ This tools enables to convert Mass
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Plane_Angle">
+ <summary>
+ This tools enables to convert Plane_Angle
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Pressure">
+ <summary>
+ This tools enables to convert Pressure
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Speed">
+ <summary>
+ This tools enables to convert Speed
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Temperature">
+ <summary>
+ This tools enables to convert Temperature
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Time">
+ <summary>
+ This tools enables to convert Time
+ </summary>
+</member>
+<member name="T:SmartOffice.SmartScience.Volume">
+ <summary>
+ This tools enables to convert Volume
+ </summary>
+</member>
+</members>
+</doc>
